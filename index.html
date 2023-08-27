@@ -1,102 +1,352 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>HTC Updates</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-.bgimg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('/Images/cat.jpg');
-  min-height: 100%;
-}
-body{
-  background-color: black
-}
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="icon" href="rat.jpg">
+        <title>AtlasL</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #888888;
-}
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/templatemo-main.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #555555;
-}
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #444444;}
-
-</style>
-</head>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
 <body>
 
-<!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
-  <div class="bgimg"></div>
-</nav>
-
-<!-- Page Content -->
-<div class="w3-main w3-padding-large" style="margin-left:40%">
-
-
-  <!-- Header -->
-    <h1 style="color:white"><b>Hack the Cat</b></h1>
-    <h4 style="color:silver">by Atlas</h4>
-  <h6 style="color:darkgrey">Hack the Cat is an in-progress Discord game bot I am working on. It is not yet available for public use. However, you can come and test it out any time you'd like through a few places. The following are the links to Discord servers I own that you can test HTC in.<br><br></h6>
-  <p style="color:darkgrey">Bots Under Construction is a community server for bot developers and tech enthusiasts alike. Here you can add your bots, promote your stuff, join our GitHub organisation, and so on.</p>
-  <a href="https://discord.gg/xASEtwRPta"><img src="https://invidget.switchblade.xyz/xASEtwRPta"></a>
-  <p style="color:darkgrey"><br><br>Hack the Cat is a small support server for HTC (Hack the Cat). </p>
-  <a href="https://discord.gg/yXuqUVSXC6"><img src="https://invidget.switchblade.xyz/yXuqUVSXC6"></a>
-
-    <!-- Portfolio Section -->
-  <div class="w3-padding-32 w3-content" id="portfolio">
-    <h2 style="color:grey">HTC Updates</h2>
-    <h6 style="color:dimgrey">Click on the images to read more.</h6>
-    <hr class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <a href="https://hacktcat.github.io/Updates/Additional/Cat-Generator.html"><img src="https://i.pinimg.com/564x/53/80/00/538000b391a964d591bd64a5541ae878.jpg" style="width:100%"></a>
-        <a href="https://hacktcat.github.io/Updates/Additional/Pre-Minigame.html"><img src="/Images/cac.jpg" style="width:100%"></a>
-        <img src="/Images/but.jpg" style="width:100%">
-        <img src="/Images/rat.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <a href="https://hacktcat.github.io/Updates/Additional/Languages.html"><img src="https://e0.pxfuel.com/wallpapers/350/581/desktop-wallpaper-tech-for-iphone-technology.jpg" style="width:100%"></a>
-        <img src="/Images/cyb.jpg" style="width:100%">
-        <img src="/Images/neu.jpg" style="width:100%">
-        <img src="/Images/ora.jpg" style="width:100%">
-        <img src="/Images/ast.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
+    <div class="fixed-side-navbar">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#home"><span>Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#services"><span>About</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio"><span>Portfolio</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#our-story"><span>Discord</span></a></li>
+        </ul>
     </div>
-  <!-- End Portfolio Section -->
-  </div>
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="first-content">
+                <h1>Atlas</h1>
+                <p><br></p>
+                <span><em>Enthusiast,</em> Technology & Astronomy</span>
+                <p><br></p>
+                <div class="primary-button">
+                    <a href="#services">Discover More</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-16 w3-opacity w3-xlarge" style="margin:-24px">
-    <p class="w3-medium" style="color:white" >Powered by <a href="https://github.com/AtlasL1" target="_blank" class="w3-hover-text-green">github.com/AtlasL1</a></p>
-  <!-- End footer -->
-  </footer>
+    <div class="service-content" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left-text">
+                        <h4>About</h4>
+                        <div class="line-dec"></div>
+                        <p>I'm Atlas, a student with a passion for problem-solving and creating innovative solutions. I have a stronger background in Python compared to other programming languages, such as C++, Java and so on. I'm a big astronomy and AI enthusiast, and I am willing to discuss or talk to anyone with similar interests.
+                            If you're interested in collaborating on exciting projects or discussing ideas, do reach out. I'm always open to new opportunities and connections! </p>
+                        <div class="primary-button">
+                            <a href="#portfolio">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <h4>Discord Bot Developer</h4>
+                                <div class="line-dec"></div>
+                                <p>I am the developer of:<br>
+                                    1. Helios, a multipurpose bot. <br>
+                                    2. Hack the Cat, a game bot. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <h4>Custom Bot Services</h4>
+                                <div class="line-dec"></div>
+                                <p>I own Bot the Builder, a custom bot service. Head to my GitHub (at the bottom of the page) for more information.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <h4>Open Source Contributions</h4>
+                                <div class="line-dec"></div>
+                                <p>I am willing to collaborate and improve existing projects of not just my own, but others too. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <h4>Astronomy Projects</h4>
+                                <div class="line-dec"></div>
+                                <p>I develop astronomy software, analyse and visual astronomical data. I am currently working on Yuè.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
 
-<!-- END PAGE CONTENT -->
-</div>
+    
+    <div class="parallax-content projects-content" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="owl-testimonials" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="https://atlasl1.github.io/HackTheCat/HackTheCat.html"><img src="img/htc.gif" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Hack the Cat</h4>
+                                    <span>Interactive Discord Game Bot. <br></span>
+                                    <p>Click on the image to learn more.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="https://atlasl1.github.io/Helios/Helios.html"><img src="img/2nd-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Helios</h4>
+                                    <span>Multipurpose Discord Bot<br></span>
+                                    <p>Click on the image to learn more.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/3rd-big-item.jpg" data-lightbox="image-1"><img src="img/3rd-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Yuè</h4>
+                                    <span>Astronomical Data Visualiser<br></span>
+                                    <p>More info to come soon.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/4th-big-item.jpg" data-lightbox="image-1"><img src="img/4th-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Dugong</h4>
+                                    <span>AI Generated Chatbot</span>
+                                    <p>More info to come soon.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/5th-big-item.jpg" data-lightbox="image-1"><img src="img/5th-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Coming Soon</h4>
+                                    <span>Unknown</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/6th-big-item.jpg" data-lightbox="image-1"><img src="img/6th-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Coming Soon</h4>
+                                    <span>Unknown</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="https://atlasl1.github.io/HackTheCat/HackTheCat.html">><img src="img/htc.gif" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Hack the Cat</h4>
+                                    <span>Interactive Discord Game Bot<br></span>
+                                    <p>Click on the image to learn more.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="https://atlasl1.github.io/Helios/Helios.html">><img src="img/2nd-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <h4>Helios</h4>
+                                    <span>Multipurpose Discord Bot<br></span>
+                                    <p>Click on the image to learn more.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><br><br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tabs-content" id="our-story">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="wrapper">
+                    <section id="first-tab-group" class="tabgroup">
+                      <div id="tab1">
+                          <div class="desktop-widget">
+                            <iframe src="https://e.widgetbot.io/channels/1112353759784341614/1113066917746450573" height="600" width="750"></iframe>
+                              <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+                          <p>A server under Bots Under Radar, for bot builders and tech enthusiasts alike. This is a server for community. Members’ bots are allowed to be added, forums for project journals, and so on. </p>
+                          <a href="https://discord.gg/xASEtwRPta"><img src="https://invidget.switchblade.xyz/xASEtwRPta"></a>
+                      </div>
+                        <div class="mobile-widget">
+                            <iframe src="https://discord.com/widget?id=1112353759784341614&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                            <p>A server under Bots Under Radar, for bot builders and tech enthusiasts alike. This is a server for community. Members’ bots are allowed to be added, forums for project journals, and so on. </p>
+                          <a href="https://discord.gg/xASEtwRPta"><img src="https://invidget.switchblade.xyz/xASEtwRPta"></a>
+                        </div>
+                          </div>
+                      <div id="tab2">
+                          <div class="desktop-widget2">
+                          <iframe src="https://e.widgetbot.io/channels/1131518123787419748/1131518201390432256" height="600" width="750"></iframe>
+                            <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+                          <p>Headquarters of Bots Under Radar. It is not a server for community, rather a support server for bots under Bots Under Radar. It is not yet a complete server.  </p>
+                          <a href="https://discord.gg/6sCfDkfwzD"><img src="https://invidget.switchblade.xyz/6sCfDkfwzD"></a>
+                            </div>
+                          <div class="mobile-widget2">
+                            <iframe src="https://discord.com/widget?id=1131518123787419748&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                            <p>Headquarters of Bots Under Radar. It is not a server for community, rather a support server for bots under Bots Under Radar. It is not yet a complete server.  </p>
+                            <a href="https://discord.gg/6sCfDkfwzD"><img src="https://invidget.switchblade.xyz/6sCfDkfwzD"></a>
+                        </div>
+                          </div>
+                    </section>
+                        <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                      <li><a href="#tab1">Bots Under Construction</a></li>
+                      <li><a href="#tab2">Bots Under Radar</a></li>
+                    </ul>
+                        <p><br><br><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="primary-button">
+                        <a href="#home">Back To Top</a>
+                    </div>
+                    <ul>
+                        <li><a href="https://github.com/AtlasL1"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.reddit.com/user/ShameDefiant887"><i class="fa fa-reddit"></i></a></li>
+                    </ul>
+                    <p>Powered by <a href="https://github.com/AtlasL1" target="_blank" class="w3-hover-text-green">github.com/AtlasL1</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+    </script>
+
+
+<script>
+    // Function to show/hide widgets based on the browser width
+    function updateWidgetVisibility() {
+        var desktopWidget = document.querySelector(".desktop-widget");
+        var mobileWidget = document.querySelector(".mobile-widget");
+
+        if (window.innerWidth <= 600) {
+            // Show mobile widget and hide desktop widget
+            desktopWidget.style.display = "none";
+            mobileWidget.style.display = "block";
+        } else if (window.innerWidth <= 1500) {
+            // Show desktop widget and hide mobile widget
+            desktopWidget.style.display = "block";
+            mobileWidget.style.display = "none";
+        } else {
+            // Show default widget for larger screens
+            desktopWidget.style.display = "block";
+            mobileWidget.style.display = "none";
+        }
+    }
+
+    // Call the function on page load and on window resize
+    window.addEventListener("load", updateWidgetVisibility);
+    window.addEventListener("resize", updateWidgetVisibility);
+</script>
+
+<script>
+    // Function to show/hide widgets based on the browser width
+    function updateWidgetVisibility() {
+        var desktopWidget = document.querySelector(".desktop-widget2");
+        var mobileWidget = document.querySelector(".mobile-widget2");
+
+        if (window.innerWidth <= 600) {
+            // Show mobile widget and hide desktop widget
+            desktopWidget.style.display = "none";
+            mobileWidget.style.display = "block";
+        } else if (window.innerWidth <= 1500) {
+            // Show desktop widget and hide mobile widget
+            desktopWidget.style.display = "block";
+            mobileWidget.style.display = "none";
+        } else {
+            // Show default widget for larger screens
+            desktopWidget.style.display = "block";
+            mobileWidget.style.display = "none";
+        }
+    }
+
+    // Call the function on page load and on window resize
+    window.addEventListener("load", updateWidgetVisibility);
+    window.addEventListener("resize", updateWidgetVisibility);
+</script>
 
 </body>
 </html>
