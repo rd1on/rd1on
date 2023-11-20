@@ -10,4 +10,4 @@ The main site: https://atlas.is-not-a.dev
 - [Robio](https://atlas.is-not-a.dev/robio)
 - [Yuè](https://atlas.is-not-a.dev/yue)
 
-> Domain from: https://github.com/open-domains. 
+> Domain from [Open Domains](https://github.com/open-domains). 
