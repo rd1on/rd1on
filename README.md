@@ -1,13 +1,13 @@
 # Λtlas
 The main site: https://atlas.is-not-a.dev
 
-**List**
-- https://atlas.is-not-a.dev
-- https://atlas.is-not-a.dev/ai
-- https://atlas.is-not-a.dev/dugong
-- https://atlas.is-not-a.dev/hackthecat
-- https://atlas.is-not-a.dev/helios
-- https://atlas.is-not-a.dev/robio
-- https://atlas.is-not-a.dev/yue
+### Complete List
+- [Main](https://atlas.is-not-a.dev)
+- [AI Learning Notes](https://atlas.is-not-a.dev/ai)
+- [Dugong](https://atlas.is-not-a.dev/dugong)
+- [Hack the Cat](https://atlas.is-not-a.dev/hackthecat)
+- [Helios](https://atlas.is-not-a.dev/helios)
+- [Robio](https://atlas.is-not-a.dev/robio)
+- [Yuè](https://atlas.is-not-a.dev/yue)
 
 > Domain from: https://github.com/open-domains. 
