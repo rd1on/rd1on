@@ -7,6 +7,7 @@ The main site: https://atlas.is-not-a.dev
 - [Dugong](https://atlas.is-not-a.dev/dugong)
 - [Hack the Cat](https://atlas.is-not-a.dev/hackthecat)
 - [Helios](https://atlas.is-not-a.dev/helios)
+- [Links](https://atlas.is-not-a.dev/links)
 - [Robio](https://atlas.is-not-a.dev/robio)
 - [Yuè](https://atlas.is-not-a.dev/yue)
 
