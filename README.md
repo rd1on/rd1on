@@ -1,4 +1,4 @@
-# Λtlas
+# Λtlʌs
 The main site: https://atlas.is-not-a.dev
 
 ### Complete List
