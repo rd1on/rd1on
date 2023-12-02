@@ -4,6 +4,7 @@ The main site: https://atlas.is-not-a.dev
 ### Complete List
 - [Main](https://atlas.is-not-a.dev)
 - [AI Learning Notes](https://atlas.is-not-a.dev/ai)
+- [Architech](https://atlas.is-not-a.dev/architech)
 - [Dugong](https://atlas.is-not-a.dev/dugong)
 - [Hack the Cat](https://atlas.is-not-a.dev/hackthecat)
 - [Helios](https://atlas.is-not-a.dev/helios)
