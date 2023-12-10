@@ -9,6 +9,7 @@ The main site: https://atlas.is-not-a.dev
 - [Hack the Cat](https://atlas.is-not-a.dev/hackthecat)
 - [Helios](https://atlas.is-not-a.dev/helios)
 - [Links](https://atlas.is-not-a.dev/links)
+- [LUNA](https://atlas.is-not-a.dev/luna) - Not me—Luna's artist profile site
 - [Robio](https://atlas.is-not-a.dev/robio)
 - [Yuè](https://atlas.is-not-a.dev/yue)
 
