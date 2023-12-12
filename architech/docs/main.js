@@ -51,3 +51,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 }, false);
+
+(function switchColor() {
+	if (localStorage.getItem('dark-mode') === 'true') {
+		let elements = document.querySelectorAll('.cm8ed , .c9lju , .chsoc , .cresr , .ct45g, .c88rp, .cgs8z , .cmjxz, .crlg4, .cc9ex, .czg3k, .c22mi, .cdujf, .cr4sc, .cns0p, .crjda, .ciyk3');
+		elements.forEach(function (element) {
+			element.style.backgroundColor = 'black';
+		});
+	};
+	if (localStorage.getItem('dark-mode') === 'false') {
+		let elements = document.querySelectorAll('.cm8ed , .c9lju , .chsoc , .cresr , .ct45g, .c88rp, .cgs8z , .cmjxz, .crlg4, .cc9ex, .czg3k, .c22mi, .cdujf, .cr4sc, .cns0p, .crjda, .ciyk3');
+		elements.forEach(function (element) {
+			element.style.backgroundColor = 'white';
+		});
+	};
+	requestAnimationFrame(switchColor);
+})();
