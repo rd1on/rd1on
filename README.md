@@ -1,4 +1,3 @@
-> I'll be making a better portfolio site with Next.js soon!
 # Λtlʌs
 The main site: https://atlas.is-not-a.dev
 
