@@ -30,7 +30,12 @@
          window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
       </script><script nonce="9de32f80-c46e-4383-8978-a40edd8a323b">
          window.C_CAPTCHA_KEY = '6Ldk59waAAAAAMPqkICbJjfMivZLCGtTpa6Wn6zO';
-      </script>
+      </script><script>
+        if (window.location.pathname.endsWith('/mobile.html')) {
+            var newURL = window.location.pathname.replace('/mobile.html', '');
+            window.history.replaceState({}, document.title, newURL);
+        }
+    </script>
    </head>
    <body>
       <div id="root">
