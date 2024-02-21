@@ -5,8 +5,8 @@ I'm Atlas, and I'm an open-source developer who mainly works on APIs and librari
 <li>Portfolio - <a href="https://atlas.is-not-a.dev" target="_blank">Λtlʌs.Is-Not-A.Dev</a></li>
 <li>(In Progress) Discord Bot - <a href="https://www.hacktcat.com" target="_blank">Hack the Cat</a></li>
 <li>(In Progress) Python Package - <a href="https://architech.py-dev.io" target="_blank">Architech</a></li>
-<li>(In Progress) Python Package - <a href="https://github.com/AtlasL1/Sheep" target="_blank">Sheep</a></li>
-<li>(Ongoing) Organisation (Fictional) - <a href="https://github.com/AtlasL1/IMAG" target="_blank">IMAG</a></li>
+<li>(In Progress) Python Package - <a href="https://sheep.farted.net" target="_blank">Sheep</a></li>
+<li>(Ongoing) Organisation (Fictional) - <a href="https://imag.dimensionless.space" target="_blank">IMAG</a></li>
 <li>(Ongoing) APIs - <a href="https://atpi.proj.sbs" target="_blank">AtPI.Proj.SBS</a></li></details>
   
 <details><summary>GitHub Activity</summary><br>
