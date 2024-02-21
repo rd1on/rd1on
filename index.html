@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-GB">
-   <head>
+<html lang="en-GB" style="--inner1Vh: 7.3px; --sbw: 1px;"><head>
       <base href="/main/">
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Λtlʌs</title>
-      <meta name="description" content="" />
+      <meta name="description" content="">
        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Lekton:400,100,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
       <style>
@@ -32,7 +30,7 @@
       <noscript>
          <style>    @keyframes pulse {}.animated {  animation-play-state: running !important;}  </style>
       </noscript>
-      <script nonce='697d369c-5199-4d7b-b2f6-f13467edb912'>!function(){"use strict";function t(t,n){let e;return(...o)=>{clearTimeout(e),e=setTimeout((()=>{t(...o)}),n)}}class n{constructor(){this.callbacks=[],window.addEventListener("DOMContentLoaded",(()=>this.onDOMContentLoaded()))}onDOMContentLoaded(){this.callbacks.sort(((t,n)=>t.priority-n.priority)).forEach((({callback:t})=>t()))}runOnLoad(t){"loading"===document.readyState?this.callbacks.push(t):t.callback()}}function e(t,e=Number.MAX_VALUE){var o;(window.canva_scriptExecutor=null!==(o=window.canva_scriptExecutor)&&void 0!==o?o:new n).runOnLoad({callback:t,priority:e})}class o{constructor(t){this.items=[],this.previousWidth=document.documentElement.clientWidth,this.previousHeight=window.innerHeight;const n=t((()=>this.onWindowResize()),100);window.addEventListener("resize",n)}onWindowResize(){const t=document.documentElement.clientWidth,n=window.innerHeight,e=this.previousWidth!==t,o=this.previousHeight!==n;this.items.forEach((t=>{const n=()=>{t.callback(),t.executed=!0};(!t.executed||e&&t.options.runOnWidthChange||o&&t.options.runOnHeightChange)&&n()})),this.previousWidth=t,this.previousHeight=n}runOnResize(t,n){this.items.push({callback:t,options:n,executed:n.runOnLoad}),this.items.sort(((t,n)=>t.options.priority-n.options.priority)),n.runOnLoad&&e(t,n.priority)}}function i(n,e,i=t){var r;(window.canva_debounceResize=null!==(r=window.canva_debounceResize)&&void 0!==r?r:new o(i)).runOnResize(n,{runOnLoad:!1,runOnWidthChange:!0,runOnHeightChange:!1,priority:Number.MAX_VALUE,...e})}const r="--minfs",c="--rzf",u="--rfso",s="--bfso";function a(t,n,e=.001){return Math.abs(t-n)<e}function d(t,n){return window.getComputedStyle(t).getPropertyValue(n)}function l(t,n,e){t.style.setProperty(n,e)}function m(t,n){const e=document.createElement("div");e.style.setProperty(t,n),document.body.append(e);const o=d(e,t);return e.remove(),o}function f(){const t=function(){const t=parseFloat(m("font-size","0.1px"));return t>1?t:0}(),n=function(t){const n=2*Math.max(t,1);return n/parseFloat(m("font-size",`${n}px`))}(t);if(function(t){if(0===t)return;l(document.documentElement,r,`${t}px`),i((()=>{const n=100*t,{clientWidth:e}=document.documentElement;l(document.documentElement,c,n>e?(e/n).toPrecision(4):null)}),{runOnLoad:!0})}(t*Math.max(1,n)),a(n,1))return;const e=a(parseFloat(d(document.documentElement,"font-size")),parseFloat(m("grid-template-columns","1rem")));l(document.documentElement,e?u:s,n.toPrecision(4))}function h(){document.querySelectorAll("img, image, video, svg").forEach((t=>t.addEventListener("contextmenu",(t=>t.preventDefault()))))}const p="--sbw",g="--inner1Vh";function w(t,n,e){t.style.setProperty(n,e)}function v(){w(document.documentElement,g,window.innerHeight/100+"px"),function(){const t=window.innerWidth-document.documentElement.clientWidth;w(document.documentElement,p,t>=0?`${t}px`:null)}()}var y;const E="undefined"!=typeof window?null===(y=window.navigator)||void 0===y?void 0:y.userAgent:void 0;const b=!(!E||(O=E,!O.match(/AppleWebKit\//)||O.match(/Chrome\//)||O.match(/Chromium\//)));var O;function L(){document.querySelectorAll("svg").forEach((t=>t.style.background="url('data:image/png;base64,')"))}let x;function A(){x||(x=Array.from(document.querySelectorAll("foreignObject")).filter((t=>0===t.getBoundingClientRect().width)));const t=function(){const t=document.createElement("div");t.style.fontSize="100vw",document.body.append(t);const n=parseFloat(window.getComputedStyle(t).fontSize);return t.remove(),n/window.innerWidth}();Array.from(x).forEach((n=>function(t){return new Promise(((n,e)=>{const o=t.querySelector("img");o&&!o.complete?(o.addEventListener("load",(()=>n())),o.addEventListener("error",(()=>e()))):n()}))}(n).finally((()=>function(t,n){const e=Array.from(t.children);e.forEach(((t,n)=>{if(t.hasAttribute("data-foreign-object-container"))t.style.transformOrigin="",t.style.transform="";else{const o=document.createElement("div");o.setAttribute("data-foreign-object-container",""),t.insertAdjacentElement("beforebegin",o),t.remove(),o.append(t),e[n]=o}}));const o=t.getScreenCTM();if(!o)return;const{a:i,b:r,c:c,d:u}=o.scale(n);e.forEach((t=>{if(!t.hasAttribute("data-foreign-object-container"))return;const{style:n}=t;n.transformOrigin="0px 0px",n.transform=`matrix(${i}, ${r}, ${c}, ${u}, 0, 0)`}))}(n,t)))))}[function(){e(f)},function(){i(v,{runOnLoad:!0,runOnHeightChange:!0,priority:1})},function(){b&&i(A,{runOnLoad:!0})},function(){b&&e(L)},function(){e(h)}].forEach((t=>t()))}();</script><script nonce="697d369c-5199-4d7b-b2f6-f13467edb912">
+      <script nonce="697d369c-5199-4d7b-b2f6-f13467edb912">!function(){"use strict";function t(t,n){let e;return(...o)=>{clearTimeout(e),e=setTimeout((()=>{t(...o)}),n)}}class n{constructor(){this.callbacks=[],window.addEventListener("DOMContentLoaded",(()=>this.onDOMContentLoaded()))}onDOMContentLoaded(){this.callbacks.sort(((t,n)=>t.priority-n.priority)).forEach((({callback:t})=>t()))}runOnLoad(t){"loading"===document.readyState?this.callbacks.push(t):t.callback()}}function e(t,e=Number.MAX_VALUE){var o;(window.canva_scriptExecutor=null!==(o=window.canva_scriptExecutor)&&void 0!==o?o:new n).runOnLoad({callback:t,priority:e})}class o{constructor(t){this.items=[],this.previousWidth=document.documentElement.clientWidth,this.previousHeight=window.innerHeight;const n=t((()=>this.onWindowResize()),100);window.addEventListener("resize",n)}onWindowResize(){const t=document.documentElement.clientWidth,n=window.innerHeight,e=this.previousWidth!==t,o=this.previousHeight!==n;this.items.forEach((t=>{const n=()=>{t.callback(),t.executed=!0};(!t.executed||e&&t.options.runOnWidthChange||o&&t.options.runOnHeightChange)&&n()})),this.previousWidth=t,this.previousHeight=n}runOnResize(t,n){this.items.push({callback:t,options:n,executed:n.runOnLoad}),this.items.sort(((t,n)=>t.options.priority-n.options.priority)),n.runOnLoad&&e(t,n.priority)}}function i(n,e,i=t){var r;(window.canva_debounceResize=null!==(r=window.canva_debounceResize)&&void 0!==r?r:new o(i)).runOnResize(n,{runOnLoad:!1,runOnWidthChange:!0,runOnHeightChange:!1,priority:Number.MAX_VALUE,...e})}const r="--minfs",c="--rzf",u="--rfso",s="--bfso";function a(t,n,e=.001){return Math.abs(t-n)<e}function d(t,n){return window.getComputedStyle(t).getPropertyValue(n)}function l(t,n,e){t.style.setProperty(n,e)}function m(t,n){const e=document.createElement("div");e.style.setProperty(t,n),document.body.append(e);const o=d(e,t);return e.remove(),o}function f(){const t=function(){const t=parseFloat(m("font-size","0.1px"));return t>1?t:0}(),n=function(t){const n=2*Math.max(t,1);return n/parseFloat(m("font-size",`${n}px`))}(t);if(function(t){if(0===t)return;l(document.documentElement,r,`${t}px`),i((()=>{const n=100*t,{clientWidth:e}=document.documentElement;l(document.documentElement,c,n>e?(e/n).toPrecision(4):null)}),{runOnLoad:!0})}(t*Math.max(1,n)),a(n,1))return;const e=a(parseFloat(d(document.documentElement,"font-size")),parseFloat(m("grid-template-columns","1rem")));l(document.documentElement,e?u:s,n.toPrecision(4))}function h(){document.querySelectorAll("img, image, video, svg").forEach((t=>t.addEventListener("contextmenu",(t=>t.preventDefault()))))}const p="--sbw",g="--inner1Vh";function w(t,n,e){t.style.setProperty(n,e)}function v(){w(document.documentElement,g,window.innerHeight/100+"px"),function(){const t=window.innerWidth-document.documentElement.clientWidth;w(document.documentElement,p,t>=0?`${t}px`:null)}()}var y;const E="undefined"!=typeof window?null===(y=window.navigator)||void 0===y?void 0:y.userAgent:void 0;const b=!(!E||(O=E,!O.match(/AppleWebKit\//)||O.match(/Chrome\//)||O.match(/Chromium\//)));var O;function L(){document.querySelectorAll("svg").forEach((t=>t.style.background="url('data:image/png;base64,')"))}let x;function A(){x||(x=Array.from(document.querySelectorAll("foreignObject")).filter((t=>0===t.getBoundingClientRect().width)));const t=function(){const t=document.createElement("div");t.style.fontSize="100vw",document.body.append(t);const n=parseFloat(window.getComputedStyle(t).fontSize);return t.remove(),n/window.innerWidth}();Array.from(x).forEach((n=>function(t){return new Promise(((n,e)=>{const o=t.querySelector("img");o&&!o.complete?(o.addEventListener("load",(()=>n())),o.addEventListener("error",(()=>e()))):n()}))}(n).finally((()=>function(t,n){const e=Array.from(t.children);e.forEach(((t,n)=>{if(t.hasAttribute("data-foreign-object-container"))t.style.transformOrigin="",t.style.transform="";else{const o=document.createElement("div");o.setAttribute("data-foreign-object-container",""),t.insertAdjacentElement("beforebegin",o),t.remove(),o.append(t),e[n]=o}}));const o=t.getScreenCTM();if(!o)return;const{a:i,b:r,c:c,d:u}=o.scale(n);e.forEach((t=>{if(!t.hasAttribute("data-foreign-object-container"))return;const{style:n}=t;n.transformOrigin="0px 0px",n.transform=`matrix(${i}, ${r}, ${c}, ${u}, 0, 0)`}))}(n,t)))))}[function(){e(f)},function(){i(v,{runOnLoad:!0,runOnHeightChange:!0,priority:1})},function(){b&&i(A,{runOnLoad:!0})},function(){b&&e(L)},function(){e(h)}].forEach((t=>t()))}();</script><script nonce="697d369c-5199-4d7b-b2f6-f13467edb912">
          window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
       </script><script nonce="697d369c-5199-4d7b-b2f6-f13467edb912">
          window.C_CAPTCHA_KEY = '6Ldk59waAAAAAMPqkICbJjfMivZLCGtTpa6Wn6zO';
@@ -56,14 +54,14 @@
                   <div id="hc0fHNDSoQbPnDUi" style="padding-top:166.66666667%;">
                      <div id="yxsaMpXePkXRYA70" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-95992363-431d-4cd4-a322-f3112c75a83d 847ms 100ms both paused, linear_fade 400ms linear both paused;">
-                              <svg id="K2f8eIlnfMK3koV1" viewBox="0 0 300.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 847ms ease 100ms 1 normal both running rise-LEFT-95992363-431d-4cd4-a322-f3112c75a83d, 400ms linear 0s 1 normal both linear_fade;">
+                              <svg id="K2f8eIlnfMK3koV1" viewBox="0 0 300.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                  <g id="VFwPFjrm02U2ub4r" style="transform:scale(1, 1);">
-                                    <foreignobject id="SGLEDlKFJzXMwLYp" style="width:300px;height:500px;">
-                                       <div id="tMcFE4Sux7Me7fKw" style="clip-path:path(&#x27;M220,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L220,0 C264.20000076,0 300,35.79999924 300,80 L300,420 C300,464.20001221 264.20001221,500 220,500 Z&#x27;);">
-                                          <div id="M18KZr7A7uqz2vWg" style="transform:scale(1, 1);transform-origin:150px 250px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/1b8db434d07b4e29f25a277da0a9709c.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/938a462184bb5482cc022ff9fcab8632.png 221w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/1b8db434d07b4e29f25a277da0a9709c.png 442w" sizes="(max-width: 375px) 24.10223967vw, (min-width: 375.05px) and (max-width: 480px) 24.10223967vw, (min-width: 480.05px) and (max-width: 768px) 24.10223967vw, (min-width: 768.05px) and (max-width: 1024px) 24.10223967vw, (min-width: 1024.05px) 24.10223967vw" style="transform:translate(0px, -16.57608696px) rotate(0deg);transform-origin:150px 266.57608696px;width:300px;height:533.15217391px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                    <foreignObject id="SGLEDlKFJzXMwLYp" style="width:300px;height:500px;">
+                                       <div id="tMcFE4Sux7Me7fKw" style="clip-path:path('M220,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L220,0 C264.20000076,0 300,35.79999924 300,80 L300,420 C300,464.20001221 264.20001221,500 220,500 Z');">
+                                          <div id="M18KZr7A7uqz2vWg" style="transform: scale(1, 1); transform-origin: 150px 250px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/1b8db434d07b4e29f25a277da0a9709c.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/938a462184bb5482cc022ff9fcab8632.png 221w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/1b8db434d07b4e29f25a277da0a9709c.png 442w" sizes="(max-width: 375px) 24.10223967vw, (min-width: 375.05px) and (max-width: 480px) 24.10223967vw, (min-width: 480.05px) and (max-width: 768px) 24.10223967vw, (min-width: 768.05px) and (max-width: 1024px) 24.10223967vw, (min-width: 1024.05px) 24.10223967vw" style="transform:translate(0px, -16.57608696px) rotate(0deg);transform-origin:150px 266.57608696px;width:300px;height:533.15217391px;display:block;opacity:1.0;object-fit:fill;"></div>
                                        </div>
-                                    </foreignobject>
+                                    </foreignObject>
                                     <path id="Pn6WofbQIhWZdyqx" d="M220,1.5 C263.29999924,1.5 298.5,36.70000076 298.5,80 L298.5,420 C298.5,463.29999924 263.29999924,498.5 220,498.5 L80,498.5 C36.70000076,498.5 1.5,463.29999924 1.5,420 L1.5,80 C1.5,36.70000076 36.70000076,1.5 80,1.5 L220,1.5 M220,0 L80,0 C35.79999924,0 0,35.79999924 0,80 L0,420 C0,464.20000076 35.79999924,500 80,500 L220,500 C264.20000076,500 300,464.20000076 300,420 L300,80 C300,35.79999924 264.20001221,0 220,0 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                  </g>
                               </svg>
@@ -75,7 +73,7 @@
                <div id="BtTmwH7pg1MCie3L" style="z-index:8;">
                   <div id="EzgCPqdKguTDafIx" style="box-sizing:border-box;width:100%;height:100%;">
                      <div class="animation_container" style="width:100%;height:100%;">
-                        <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-79d96abc-88d0-46d9-80d4-7a1c6853424f 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                        <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running rise-LEFT-79d96abc-88d0-46d9-80d4-7a1c6853424f, 400ms linear 0s 1 normal both linear_fade;">
                            <div id="uarS51rI0PM8tdfM" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                               <p id="vH8JGaAdWvaf7wn7" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.0714324em;text-align:center;text-transform:none;letter-spacing:0em;"><span id="fqUgAGoDa90JTBUK" style="color:#ffffff;">© 2024</span><br></p>
                            </div>
@@ -87,7 +85,7 @@
                   <div id="p3oL3iLLzAjB4hZm" style="box-sizing:border-box;width:100%;height:100%;">
                      <div class="animation_container" style="width:100%;height:100%;">
                         <div style="width:100%;height:100%;transform:rotate(0deg);overflow:hidden;">
-                           <div class="animated" style="width:100%;height:100%;animation:baseline-RIGHT-7fc491ca-08bd-4744-9d0d-7760a6dab5ee 961ms 100ms both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 961ms ease 100ms 1 normal both running baseline-RIGHT-7fc491ca-08bd-4744-9d0d-7760a6dab5ee;">
                               <div id="Qth78qIFJTLNekZF" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                  <p id="EAD3o2bLBme2s9hx" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.1em;text-transform:none;letter-spacing:0em;"><span id="dtcv8JHKVkueJyXL" style="color:#ffffff;">Λtlas.Is-Not-A.Dev</span><br></p>
                               </div>
@@ -104,8 +102,8 @@
                               <div id="g5oeDwk3hg0XGv67" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                                  <div class="animation_container" style="width:100%;height:100%;">
                                     <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                       <div class="animated" style="width:100%;height:100%;animation:wipe-LEFT-ec18df6d-523d-4c35-8b43-ef87c74fe7b8 5000ms 100ms both paused;">
-                                          <svg id="JJPIa5FA49Fum4E2" viewBox="0 0 591.4051 215.1989" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                                       <div class="animated" style="width: 100%; height: 100%; animation: 5000ms ease 100ms 1 normal both running wipe-LEFT-ec18df6d-523d-4c35-8b43-ef87c74fe7b8;">
+                                          <svg id="JJPIa5FA49Fum4E2" viewBox="0 0 591.4051 215.1989" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                              <g id="Z1NzuszyB4eTlPPv" style="transform:scale(1, 1);">
                                                 <path id="eXZn9mjVMxOX4H5C" d="M515.05506085,0 L76.34999847,0 C34.25,0 0,34.25 0,107.59944831 C0,180.94890037 34.25,215.19890037 76.34999847,215.19890037 L515.05506085,215.19890037 C557.15506695,215.19890037 591.40506695,180.94890037 591.40506695,107.59944831 C591.40506695,34.25 557.15506695,0 515.05506085,0 Z M515.05506085,213.19890037 L76.34999847,213.19890037 C35.34999847,213.19890037 2,179.84890189 2,107.59944831 C2,35.34999847 35.34999847,2 76.34999847,2 L515.05506085,2 C556.05506085,2 589.40506695,35.34999847 589.40506695,107.59944831 C589.40506695,179.84890189 556.05506085,213.19890037 515.05506085,213.19890037 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                              </g>
@@ -120,7 +118,7 @@
                            <div id="uuHFQVpBf4kSH5om" style="box-sizing:border-box;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
                                  <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                    <div class="animated" style="width:100%;height:100%;animation:wipe-LEFT-31cc5d81-697c-4bc6-834f-37558f5e92d3 5000ms 100ms both paused;">
+                                    <div class="animated" style="width: 100%; height: 100%; animation: 5000ms ease 100ms 1 normal both running wipe-LEFT-31cc5d81-697c-4bc6-834f-37558f5e92d3;">
                                        <div id="TXyuzEbmujbGCWVF" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                           <p id="oN1ncxf4FE5gZi3w" style="color:#ffffff;font-family:'Lekton';line-height:1.38461805em;text-align:center;"><span id="Iu2BVRw6h0rqSKxA" style="color:#ffffff;font-weight:700;">Lo Xing Le</span></p>
                                           <p id="enr4dMEddRc5rvWe" style="color:#ffffff;font-family:'Lekton';line-height:1.38461805em;text-align:center;text-transform:none;letter-spacing:0em;"><span id="BegOPIucSg3Pjro2" style="color:#ffffff;font-weight:700;">[‘Not A Developer’]</span><br></p>
@@ -137,14 +135,14 @@
                   <div id="liVRAsmfSaf3uxZa" style="padding-top:50%;">
                      <div id="BhrNBf9alOlL1MXq" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-6a69cde1-aeb9-4795-8127-34bfa64b6360 819ms 100ms both paused, linear_fade 400ms linear both paused;">
-                              <svg id="usus0Otr3x953XiZ" viewBox="0 0 500.0 250.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 819ms ease 100ms 1 normal both running rise-RIGHT-6a69cde1-aeb9-4795-8127-34bfa64b6360, 400ms linear 0s 1 normal both linear_fade;">
+                              <svg id="usus0Otr3x953XiZ" viewBox="0 0 500.0 250.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                  <g id="P8EmQqkdsXAaDUWM" style="transform:scale(1, 1);">
-                                    <foreignobject id="eN9BsY0xzTWwz7AZ" style="width:500px;height:250px;">
-                                       <div id="P46YAsRDUkhzvOCI" style="clip-path:path(&#x27;M0,180 L0,70 C0,31.29999924 31.29999924,0 70,0 L430,0 C468.70000076,0 500,31.29999924 500,70 L500,180 C500,218.70000076 468.70000076,250 430,250 L70,250 C31.29999924,250 0,218.69999695 0,180 Z&#x27;);">
-                                          <div id="qO1lhevOuyr7LUph" style="transform:scale(1, 1);transform-origin:250px 125px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/e1929869f6c51559575e386405112d87.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9b26c53ca7d9d777b8bd3e6235ed23de.png 221w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/e1929869f6c51559575e386405112d87.png 442w" sizes="(max-width: 375px) 21.85198684vw, (min-width: 375.05px) and (max-width: 480px) 21.85198684vw, (min-width: 480.05px) and (max-width: 768px) 21.85198684vw, (min-width: 768.05px) and (max-width: 1024px) 21.85198684vw, (min-width: 1024.05px) 21.85198684vw" style="transform:translate(0px, -138.755889px) rotate(0deg);transform-origin:250px 444.29347826px;width:500px;height:888.58695652px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                    <foreignObject id="eN9BsY0xzTWwz7AZ" style="width:500px;height:250px;">
+                                       <div id="P46YAsRDUkhzvOCI" style="clip-path:path('M0,180 L0,70 C0,31.29999924 31.29999924,0 70,0 L430,0 C468.70000076,0 500,31.29999924 500,70 L500,180 C500,218.70000076 468.70000076,250 430,250 L70,250 C31.29999924,250 0,218.69999695 0,180 Z');">
+                                          <div id="qO1lhevOuyr7LUph" style="transform: scale(1, 1); transform-origin: 250px 125px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/e1929869f6c51559575e386405112d87.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9b26c53ca7d9d777b8bd3e6235ed23de.png 221w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/e1929869f6c51559575e386405112d87.png 442w" sizes="(max-width: 375px) 21.85198684vw, (min-width: 375.05px) and (max-width: 480px) 21.85198684vw, (min-width: 480.05px) and (max-width: 768px) 21.85198684vw, (min-width: 768.05px) and (max-width: 1024px) 21.85198684vw, (min-width: 1024.05px) 21.85198684vw" style="transform:translate(0px, -138.755889px) rotate(0deg);transform-origin:250px 444.29347826px;width:500px;height:888.58695652px;display:block;opacity:1.0;object-fit:fill;"></div>
                                        </div>
-                                    </foreignobject>
+                                    </foreignObject>
                                     <path id="vHttZ3N3Gs1Offru" d="M430,1.5 C448.29999924,1.5 465.5,8.5999999 478.5,21.5 C491.39999962,34.39999962 498.5,51.60000038 498.5,70 L498.5,180 C498.5,198.29999924 491.4000001,215.5 478.5,228.5 C465.60000038,241.39999962 448.39999962,248.5 430,248.5 L70,248.5 C51.70000076,248.5 34.5,241.4000001 21.5,228.5 C8.60000038,215.60000038 1.5,198.39999962 1.5,180 L1.5,70 C1.5,51.70000076 8.5999999,34.5 21.5,21.5 C34.5,8.60000038 51.70000076,1.5 70,1.5 L430,1.5 M430,0 L70,0 C31.29999924,0 0,31.29999924 0,70 L0,180 C0,218.70000076 31.29999924,250 70,250 L430,250 C468.70000076,250 500,218.70000076 500,180 L500,70 C500,31.29999924 468.70001221,0 430,0 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                  </g>
                               </svg>
@@ -157,7 +155,7 @@
                   <div id="gQM0hd56xKqq3W7Z" style="box-sizing:border-box;width:100%;height:100%;">
                      <div class="animation_container" style="width:100%;height:100%;">
                         <div style="width:100%;height:100%;transform:rotate(0deg);">
-                           <div class="animated" style="width:100%;height:100%;animation:wipe-RIGHT-f405f270-ef68-4a98-942a-76645465f9c6 750ms 100ms both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 750ms ease 100ms 1 normal both running wipe-RIGHT-f405f270-ef68-4a98-942a-76645465f9c6;">
                               <div id="Latu8SZzOf2RgGGl" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                  <p id="r0SjarHj67GbAEFi" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.38461805em;text-align:center;"><span id="yf9bYvJ3323tGx2y" style="color:#ffffff;">Otaru Music Box Museum</span></p>
                                  <p id="f3JEfcv5UF0l41aA" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.38461805em;text-align:center;text-transform:none;letter-spacing:0em;"><span id="JxBV2H0ZI9G6jNgl" style="color:#ffffff;"> (小樽オルゴール堂)</span><br></p>
@@ -172,10 +170,10 @@
                      <div id="YzyVBioc9Mm834AD" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
                            <div style="width:100%;height:100%;transform:rotate(0deg);">
-                              <div class="animated" style="width:100%;height:100%;animation:wipe-RIGHT-66dd85a5-80bd-4c3a-a191-e2aa35d1769e 750ms 100ms both paused;">
+                              <div class="animated" style="width: 100%; height: 100%; animation: 750ms ease 100ms 1 normal both running wipe-RIGHT-66dd85a5-80bd-4c3a-a191-e2aa35d1769e;">
                                  <div id="PNYZZaYKzBBya2DN" style="width:100%;height:100%;opacity:1.0;">
                                     <div id="ztSCtusbd0MAvtYo" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                       <div id="aDvCFPDWG978wNxY" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9d17385752258a3708f16d62c7b186b2.svg" alt="Ultra Thin Lined Spiral" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                       <div id="aDvCFPDWG978wNxY" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9d17385752258a3708f16d62c7b186b2.svg" alt="Ultra Thin Lined Spiral" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                     </div>
                                  </div>
                               </div>
@@ -202,7 +200,7 @@
                   <div id="cQ8Ycvq1NKvUenot" style="box-sizing:border-box;width:100%;height:100%;">
                      <div class="animation_container" style="width:100%;height:100%;">
                         <div style="width:100%;height:100%;transform:rotate(0deg);overflow:hidden;">
-                           <div class="animated" style="width:100%;height:100%;animation:baseline-LEFT-72477050-43c0-4d8f-9483-a600d6ae0480 961ms 100ms both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 961ms ease 100ms 1 normal both running baseline-LEFT-72477050-43c0-4d8f-9483-a600d6ae0480;">
                               <div id="BTX4nH13IqfWARWg" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                  <p id="ecDU7PXyXlk3pKan" style="color:#ffffff;direction:ltr;font-family:'Roboto Slab';margin-left:0em;line-height:1.1em;text-align:center;text-transform:none;letter-spacing:0em;"><span id="RtVvxb8DNBnSf6yU" style="text-decoration-line:none;color:#ffffff;">About Me</span></p>
                               </div>
@@ -216,7 +214,7 @@
                      <div id="k2bnECmGziUBJhwM" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div id="QuwWKPt3lnzEN0KH" style="width:100%;height:100%;opacity:1.0;">
                            <div id="ZwRndIkDutpRkcTv" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                              <div id="P0zODN03O7Q11S3X" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/dbd23cfbfe58260bf9bc403090e86a36.svg" alt="Organic Handdrawn Thin Line " loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                              <div id="P0zODN03O7Q11S3X" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/dbd23cfbfe58260bf9bc403090e86a36.svg" alt="Organic Handdrawn Thin Line " loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                            </div>
                         </div>
                      </div>
@@ -225,7 +223,7 @@
                <div id="zjyrA7jVcPOr026N" style="z-index:4;">
                   <div id="quoo59tn8xpnPNYW" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                      <div id="oX1qzagSs9iPJtRW" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                        <p id="k7IxlMnY28CnwtC5" style="color:#ffffff;direction:ltr;font-family:'Roboto Slab';margin-left:0em;line-height:1.58334653em;text-align:center;"><span id="e34CIJSY2JJ2vBPn" style="color:#ffffff;">I&#x27;m Atlas, an open-source developer who mainly works on APIs and libraries!</span><br></p>
+                        <p id="k7IxlMnY28CnwtC5" style="color:#ffffff;direction:ltr;font-family:'Roboto Slab';margin-left:0em;line-height:1.58334653em;text-align:center;"><span id="e34CIJSY2JJ2vBPn" style="color:#ffffff;">I'm Atlas, an open-source developer who mainly works on APIs and libraries!</span><br></p>
                      </div>
                   </div>
                </div>
@@ -233,14 +231,14 @@
                   <div id="MYqoKY1JaOd428zY" style="padding-top:142.85714286%;">
                      <div id="jS3l7TVnHQlrnQFO" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-b014bfe0-a804-4d3b-917a-06f5bc949f93 833ms 100ms both paused, linear_fade 400ms linear both paused;">
-                              <svg id="QIjFS4LSjbBYO7GI" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 833ms ease 100ms 1 normal both running rise-RIGHT-b014bfe0-a804-4d3b-917a-06f5bc949f93, 400ms linear 0s 1 normal both linear_fade;">
+                              <svg id="QIjFS4LSjbBYO7GI" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                  <g id="iTafNw3HBYEqZXiZ" style="transform:scale(1, 1);">
-                                    <foreignobject id="vTsyRKXf0MGnBA3Y" style="width:350px;height:500px;">
-                                       <div id="Hn99kFPJPbLCstMN" style="clip-path:path(&#x27;M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z&#x27;);">
-                                          <div id="DR7VfwZTzi9Ac1Y6" style="transform:scale(1, 1);transform-origin:175px 250px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/8413233d05e146c8e9313e4c369086cf.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9e411beb641340696fa38982c811c054.png 221w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/8413233d05e146c8e9313e4c369086cf.png 515w" sizes="(max-width: 375px) 28.41825766vw, (min-width: 375.05px) and (max-width: 480px) 28.41825766vw, (min-width: 480.05px) and (max-width: 768px) 28.41825766vw, (min-width: 768.05px) and (max-width: 1024px) 28.41825766vw, (min-width: 1024.05px) 28.41825766vw" style="transform:translate(0px, -109.04761905px) rotate(0deg);transform-origin:175px 304.52380952px;width:350px;height:609.04761905px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                    <foreignObject id="vTsyRKXf0MGnBA3Y" style="width:350px;height:500px;">
+                                       <div id="Hn99kFPJPbLCstMN" style="clip-path:path('M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z');">
+                                          <div id="DR7VfwZTzi9Ac1Y6" style="transform: scale(1, 1); transform-origin: 175px 250px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/8413233d05e146c8e9313e4c369086cf.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9e411beb641340696fa38982c811c054.png 221w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/8413233d05e146c8e9313e4c369086cf.png 515w" sizes="(max-width: 375px) 28.41825766vw, (min-width: 375.05px) and (max-width: 480px) 28.41825766vw, (min-width: 480.05px) and (max-width: 768px) 28.41825766vw, (min-width: 768.05px) and (max-width: 1024px) 28.41825766vw, (min-width: 1024.05px) 28.41825766vw" style="transform:translate(0px, -109.04761905px) rotate(0deg);transform-origin:175px 304.52380952px;width:350px;height:609.04761905px;display:block;opacity:1.0;object-fit:fill;"></div>
                                        </div>
-                                    </foreignobject>
+                                    </foreignObject>
                                     <path id="OgfcvloRTokAyBHd" d="M270,1.5 C313.29999924,1.5 348.5,36.70000076 348.5,80 L348.5,420 C348.5,463.29999924 313.29999924,498.5 270,498.5 L80,498.5 C36.70000076,498.5 1.5,463.29999924 1.5,420 L1.5,80 C1.5,36.70000076 36.70000076,1.5 80,1.5 L270,1.5 M270,0 L80,0 C35.79999924,0 0,35.79999924 0,80 L0,420 C0,464.20000076 35.79999924,500 80,500 L270,500 C314.20000076,500 350,464.20000076 350,420 L350,80 C350,35.79999924 314.20001221,0 270,0 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                  </g>
                               </svg>
@@ -267,11 +265,11 @@
                   <div id="k5yOA0LM1OapQ3fv" style="box-sizing:border-box;width:100%;height:100%;">
                      <div class="animation_container" style="width:100%;height:100%;">
                         <div style="width:100%;height:100%;transform:rotate(0deg);overflow:hidden;">
-                           <div class="animated" style="width:100%;height:100%;animation:baseline-LEFT-ba83cde1-bb3a-4890-a0be-4517ddce98d8 943ms 100ms both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 943ms ease 100ms 1 normal both running baseline-LEFT-ba83cde1-bb3a-4890-a0be-4517ddce98d8;">
                               <div id="aKbr6TFyiWVs9TId" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                  <p id="GImPoohJNvlPatcB" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.1em;text-align:center;"><span id="s9PL8pMH7TXy86KC" style="color:#ffffff;">Projects</span></p>
                                  <p id="FSNYHJZcpF5xXwZG" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.03125em;text-align:center;white-space:pre;"><br></p>
-                                 <p id="TroFMsZTNEepdZgU" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.078125em;text-align:center;letter-spacing:0em;"><span id="Wsin2WfTclRni838" style="color:#ffffff;">Click on ^ to see all of my projects!</span><br></p>
+                                 <p id="TroFMsZTNEepdZgU" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.078125em;text-align:center;letter-spacing:0em;"><br></p>
                               </div>
                            </div>
                         </div>
@@ -283,10 +281,10 @@
                      <div id="cPLGi3REdnqJZVg0" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
                            <div style="width:100%;height:100%;transform:rotate(0deg);">
-                              <div class="animated" style="width:100%;height:100%;animation:wipe-LEFT-79a8b41b-852d-4f4b-8c19-7b2f1987ad00 2461ms 100ms both paused;">
+                              <div class="animated" style="width: 100%; height: 100%; animation: 2461ms ease 100ms 1 normal both running wipe-LEFT-79a8b41b-852d-4f4b-8c19-7b2f1987ad00;">
                                  <div id="rhLPbggy5uKRNtYc" style="width:100%;height:100%;opacity:1.0;">
                                     <div id="fFsb6HTPjhyIPyRj" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                       <div id="HsUJevlSX0TscIYC" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9d17385752258a3708f16d62c7b186b2.svg" alt="Ultra Thin Lined Spiral" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                       <div id="HsUJevlSX0TscIYC" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9d17385752258a3708f16d62c7b186b2.svg" alt="Ultra Thin Lined Spiral" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                     </div>
                                  </div>
                               </div>
@@ -318,15 +316,15 @@
                   <div id="it3PAFBj57CzkFOV" style="padding-top:142.85714286%;">
                      <div id="hol4OEyBXe9k59iO" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-b03cb9eb-5a06-49b0-9f04-3626f92bea8c 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running rise-RIGHT-b03cb9eb-5a06-49b0-9f04-3626f92bea8c, 400ms linear 0s 1 normal both linear_fade;">
                               <a id="Xo0m0M3wKsOV0vt3" target="_blank" rel="noopener" href="https://architech.py-dev.io" style="pointer-events:all;">
-                                 <svg id="XpqT07S9iLxzvQJl" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                                 <svg id="XpqT07S9iLxzvQJl" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                     <g id="goR3kY3fzwJXXFyC" style="transform:scale(1, 1);">
-                                       <foreignobject id="wuuWDWkerj66fg6f" style="width:350px;height:500px;">
-                                          <div id="djh8STsTEOhUw22s" style="clip-path:path(&#x27;M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z&#x27;);">
-                                             <div id="U7BBGDEXL12nq9Hw" style="transform:scale(1, 1);transform-origin:175px 250px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/cef43b893b11fbd479f30da873e91f27.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/832eff56c58d5b07029fbb0bf12791c3.png 324w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/cef43b893b11fbd479f30da873e91f27.png 648w" sizes="(max-width: 375px) 31.7847398vw, (min-width: 375.05px) and (max-width: 480px) 31.7847398vw, (min-width: 480.05px) and (max-width: 768px) 31.7847398vw, (min-width: 768.05px) and (max-width: 1024px) 31.7847398vw, (min-width: 1024.05px) 31.7847398vw" style="transform:translate(-25px, 0px) rotate(0deg);transform-origin:200px 250px;width:400px;height:500px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                       <foreignObject id="wuuWDWkerj66fg6f" style="width:350px;height:500px;">
+                                          <div id="djh8STsTEOhUw22s" style="clip-path:path('M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z');">
+                                             <div id="U7BBGDEXL12nq9Hw" style="transform: scale(1, 1); transform-origin: 175px 250px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/cef43b893b11fbd479f30da873e91f27.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/832eff56c58d5b07029fbb0bf12791c3.png 324w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/cef43b893b11fbd479f30da873e91f27.png 648w" sizes="(max-width: 375px) 31.7847398vw, (min-width: 375.05px) and (max-width: 480px) 31.7847398vw, (min-width: 480.05px) and (max-width: 768px) 31.7847398vw, (min-width: 768.05px) and (max-width: 1024px) 31.7847398vw, (min-width: 1024.05px) 31.7847398vw" style="transform:translate(-25px, 0px) rotate(0deg);transform-origin:200px 250px;width:400px;height:500px;display:block;opacity:1.0;object-fit:fill;"></div>
                                           </div>
-                                       </foreignobject>
+                                       </foreignObject>
                                        <path id="al7cfQ9fQqg1Mhcn" d="M270,1.5 C313.29999924,1.5 348.5,36.70000076 348.5,80 L348.5,420 C348.5,463.29999924 313.29999924,498.5 270,498.5 L80,498.5 C36.70000076,498.5 1.5,463.29999924 1.5,420 L1.5,80 C1.5,36.70000076 36.70000076,1.5 80,1.5 L270,1.5 M270,0 L80,0 C35.79999924,0 0,35.79999924 0,80 L0,420 C0,464.20000076 35.79999924,500 80,500 L270,500 C314.20000076,500 350,464.20000076 350,420 L350,80 C350,35.79999924 314.20001221,0 270,0 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                     </g>
                                  </svg>
@@ -342,7 +340,7 @@
                         <div id="Td7M2jTGc09yhaOX" style="padding-top:105.09863494%;">
                            <div id="ist2dMeDexmGkY6t" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-a3650fa3-e6dd-46f6-8163-3002f59362a1 877ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 877ms ease 100ms 1 normal both running rise-RIGHT-a3650fa3-e6dd-46f6-8163-3002f59362a1, 400ms linear 0s 1 normal both linear_fade;">
                                     <div id="W3vkKVyctbeFRLlx" style="width:100%;height:100%;opacity:1.0;">
                                        <div id="yRgCBjM1kM2srqZy" style="background-color:#000000;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;"></div>
                                     </div>
@@ -358,7 +356,7 @@
                      <div id="EbENmm9o2z8PTSAO" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div id="kULMtxl1w6HSf7b1" style="width:100%;height:100%;opacity:1.0;">
                            <div id="pUZ3bdjMpbiYXlUV" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                              <div id="kozCep1KLbhsZj7b" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/54751e27ab68272e5ea43abf79f13c61.svg" alt="Artificial Intelligence Icon" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                              <div id="kozCep1KLbhsZj7b" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/54751e27ab68272e5ea43abf79f13c61.svg" alt="Artificial Intelligence Icon" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                            </div>
                         </div>
                      </div>
@@ -368,10 +366,10 @@
                   <div id="Yc2DtmnOQ95NSgLo" style="padding-top:100%;">
                      <div id="X7nZHW3STG8f1Aed" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:pan-RIGHT-39d1250b-a6c2-4d06-860f-09df79e7b297 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running pan-RIGHT-39d1250b-a6c2-4d06-860f-09df79e7b297, 400ms linear 0s 1 normal both linear_fade;">
                               <div id="WSy75FlUNkXkbLXP" style="width:100%;height:100%;opacity:1.0;">
                                  <div id="i2vDXPBZePPtiAWe" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="p7znnCF0hwpj7l3j" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/da3e5d20b1ba8b048d3f24c15b6ef9e1.svg" alt="construction gradient icon" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                    <div id="p7znnCF0hwpj7l3j" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/da3e5d20b1ba8b048d3f24c15b6ef9e1.svg" alt="construction gradient icon" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                  </div>
                               </div>
                            </div>
@@ -400,7 +398,7 @@
                            <div id="so8GBmz5wuuM2PO1" style="padding-top:79.24122747%;">
                               <div id="q7ga3W2sYsRwr4Ci" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                                  <div class="animation_container" style="width:100%;height:100%;">
-                                    <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-c6e733b4-f191-48e7-b73e-841783c3bdac 806ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                    <div class="animated" style="width: 100%; height: 100%; animation: 806ms ease 100ms 1 normal both running rise-LEFT-c6e733b4-f191-48e7-b73e-841783c3bdac, 400ms linear 0s 1 normal both linear_fade;">
                                        <div id="Ochv9UfXTVnVVH0S" style="width:100%;height:100%;opacity:1.0;">
                                           <div id="XQkTlegxWpsjfpZJ" style="background-color:#000000;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;"></div>
                                        </div>
@@ -413,10 +411,10 @@
                            <div id="PRk8sU8aNicqGNO0" style="padding-top:91.81818182%;">
                               <div id="GVh2s8iS6CXPnbKy" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                                  <div class="animation_container" style="width:100%;height:100%;">
-                                    <div class="animated" style="width:100%;height:100%;animation:fade-LEFT-06c1aa1b-1bea-4156-be72-830530c1afa6 500ms 100ms both paused;">
+                                    <div class="animated" style="width: 100%; height: 100%; animation: 500ms ease 100ms 1 normal both running fade-LEFT-06c1aa1b-1bea-4156-be72-830530c1afa6;">
                                        <div id="pV5clc46PHcUQbGf" style="width:100%;height:100%;opacity:1.0;">
                                           <div id="rZBIqJXftpnfEMaw" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                             <div id="NX15P8Xr6T3noHfM" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/b512fd0441fcd562f7b821ea23039a4a.svg" alt="Api icon" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                             <div id="NX15P8Xr6T3noHfM" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/b512fd0441fcd562f7b821ea23039a4a.svg" alt="Api icon" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                           </div>
                                        </div>
                                     </div>
@@ -431,15 +429,15 @@
                   <div id="eZDZSGQQlc66VnsD" style="padding-top:50%;">
                      <div id="ksEdauvUBf6cpBeh" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-a8a75d2d-f73e-4129-ab21-2ecc6350344c 909ms 100ms both paused, linear_fade 400ms linear both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 909ms ease 100ms 1 normal both running rise-LEFT-a8a75d2d-f73e-4129-ab21-2ecc6350344c, 400ms linear 0s 1 normal both linear_fade;">
                               <a id="kKDC79sObyDFsOKS" target="_blank" rel="noopener" href="https://atpi.proj.sbs" style="pointer-events:all;">
-                                 <svg id="nAKnVv1fLZqTIQWd" viewBox="0 0 500.0 250.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                                 <svg id="nAKnVv1fLZqTIQWd" viewBox="0 0 500.0 250.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                     <g id="putLXBkfBGF1C2Ur" style="transform:scale(1, 1);">
-                                       <foreignobject id="qstXRoHHIHWpNmlL" style="width:500px;height:250px;">
-                                          <div id="BgIpKPapwITbCruz" style="clip-path:path(&#x27;M0,180 L0,70 C0,31.29999924 31.29999924,0 70,0 L430,0 C468.70000076,0 500,31.29999924 500,70 L500,180 C500,218.70000076 468.70000076,250 430,250 L70,250 C31.29999924,250 0,218.69999695 0,180 Z&#x27;);">
-                                             <div id="Hm3F32KeIi4E7ooJ" style="transform:scale(1, 1);transform-origin:250px 125px;"><img src="https://media.discordapp.net/attachments/1146406609094967337/1209369951777857577/image.png?ex=65e6ac89&is=65d43789&hm=3f3b518c6dd6231c03e7e1a29ff32c9371fe30912f5d86e084c6b670821c106a&=&format=webp&quality=lossless&width=653&height=662" loading="lazy" style="transform:translate(0px, -125px) rotate(0deg);transform-origin:250px 250px;width:500px;height:500px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                       <foreignObject id="qstXRoHHIHWpNmlL" style="width:500px;height:250px;">
+                                          <div id="BgIpKPapwITbCruz" style="clip-path:path('M0,180 L0,70 C0,31.29999924 31.29999924,0 70,0 L430,0 C468.70000076,0 500,31.29999924 500,70 L500,180 C500,218.70000076 468.70000076,250 430,250 L70,250 C31.29999924,250 0,218.69999695 0,180 Z');">
+                                             <div id="Hm3F32KeIi4E7ooJ" style="transform: scale(1, 1); transform-origin: 250px 125px; animation: auto ease 0s 1 normal none running none;"><img src="https://media.discordapp.net/attachments/1146406609094967337/1209369951777857577/image.png?ex=65e6ac89&amp;is=65d43789&amp;hm=3f3b518c6dd6231c03e7e1a29ff32c9371fe30912f5d86e084c6b670821c106a&amp;=&amp;format=webp&amp;quality=lossless&amp;width=653&amp;height=662" loading="lazy" style="transform:translate(0px, -125px) rotate(0deg);transform-origin:250px 250px;width:500px;height:500px;display:block;opacity:1.0;object-fit:fill;"></div>
                                           </div>
-                                       </foreignobject>
+                                       </foreignObject>
                                        <path id="cdd6l0qULw8gEnMm" d="M430,1.5 C448.29999924,1.5 465.5,8.5999999 478.5,21.5 C491.39999962,34.39999962 498.5,51.60000038 498.5,70 L498.5,180 C498.5,198.29999924 491.4000001,215.5 478.5,228.5 C465.60000038,241.39999962 448.39999962,248.5 430,248.5 L70,248.5 C51.70000076,248.5 34.5,241.4000001 21.5,228.5 C8.60000038,215.60000038 1.5,198.39999962 1.5,180 L1.5,70 C1.5,51.70000076 8.5999999,34.5 21.5,21.5 C34.5,8.60000038 51.70000076,1.5 70,1.5 L430,1.5 M430,0 L70,0 C31.29999924,0 0,31.29999924 0,70 L0,180 C0,218.70000076 31.29999924,250 70,250 L430,250 C468.70000076,250 500,218.70000076 500,180 L500,70 C500,31.29999924 468.70001221,0 430,0 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                     </g>
                                  </svg>
@@ -455,10 +453,10 @@
                         <div id="vrs4kjoddD6DLipi" style="padding-top:64.05832864%;">
                            <div id="NwUqiA4QjXzyYSyn" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-e2a55d05-1ea3-44c1-9ea6-3eeaedfd53f1 877ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 877ms ease 100ms 1 normal both running rise-RIGHT-e2a55d05-1ea3-44c1-9ea6-3eeaedfd53f1, 400ms linear 0s 1 normal both linear_fade;">
                                     <div id="nUJi6uUwYRshrAJn" style="width:100%;height:100%;opacity:1.0;">
                                        <div id="b9O9tm8p93DWOHcr" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                          <div id="LzirYxT1qIhSORjA" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(104.00677228% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/7bea410c990ab7902139e21e55896e12.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/83c768e9b1bc86dd87ef338557c528c9.png 800w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/7bea410c990ab7902139e21e55896e12.png 1200w" sizes="(max-width: 375px) 36.70857937vw, (min-width: 375.05px) and (max-width: 480px) 36.70857937vw, (min-width: 480.05px) and (max-width: 768px) 36.70857937vw, (min-width: 768.05px) and (max-width: 1024px) 36.70857937vw, (min-width: 1024.05px) 36.70857937vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                          <div id="LzirYxT1qIhSORjA" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(104.00677228% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/7bea410c990ab7902139e21e55896e12.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/83c768e9b1bc86dd87ef338557c528c9.png 800w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/7bea410c990ab7902139e21e55896e12.png 1200w" sizes="(max-width: 375px) 36.70857937vw, (min-width: 375.05px) and (max-width: 480px) 36.70857937vw, (min-width: 480.05px) and (max-width: 768px) 36.70857937vw, (min-width: 768.05px) and (max-width: 1024px) 36.70857937vw, (min-width: 1024.05px) 36.70857937vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                        </div>
                                     </div>
                                  </div>
@@ -526,10 +524,10 @@
                         <div id="hFMuEEkX212ZkcEA" style="padding-top:64.05832864%;">
                            <div id="QL8n6EeVAOP67vK3" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-0e637829-2718-4fdb-8328-b41242a15287 877ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 877ms ease 100ms 1 normal both running rise-LEFT-0e637829-2718-4fdb-8328-b41242a15287, 400ms linear 0s 1 normal both linear_fade;">
                                     <div id="TbJAy5C7Ao1RLi9P" style="width:100%;height:100%;opacity:1.0;">
                                        <div id="Tlp2G7xGq07nwQwT" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                          <div id="UrWm5ptZ790kOShx" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(231.81997274% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9e7e97a814ab86b0b0e61a0e73a1dd2f.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                          <div id="UrWm5ptZ790kOShx" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(231.81997274% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/9e7e97a814ab86b0b0e61a0e73a1dd2f.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                        </div>
                                     </div>
                                  </div>
@@ -543,15 +541,15 @@
                   <div id="kSQhuZl5L4QiYbuq" style="padding-top:142.85714286%;">
                      <div id="GtuWdkMla5pCtQrk" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-40e622d2-829a-4fa3-8d4a-6efc90ca9964 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running rise-RIGHT-40e622d2-829a-4fa3-8d4a-6efc90ca9964, 400ms linear 0s 1 normal both linear_fade;">
                               <a id="bJKBfVqrOrNV5obh" target="_blank" rel="noopener" href="https://www.hacktcat.com" style="pointer-events:all;">
-                                 <svg id="Jv9cRqRjmia5dEFz" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                                 <svg id="Jv9cRqRjmia5dEFz" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                     <g id="OCL639pWuKMWVPyy" style="transform:scale(1, 1);">
-                                       <foreignobject id="m6YDEHnnA8JEiMS0" style="width:350px;height:500px;">
-                                          <div id="dD3M1nLhl1eKBRNb" style="clip-path:path(&#x27;M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z&#x27;);">
-                                             <div id="DVmi4bs5PKeKRv7Q" style="transform:scale(1, 1);transform-origin:175px 250px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/4e95778c05f5b2509b459a815cfac61f.png" loading="lazy" style="transform:translate(0px, -22.22222222px) rotate(0deg);transform-origin:175px 272.22222222px;width:350px;height:544.44444444px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                       <foreignObject id="m6YDEHnnA8JEiMS0" style="width:350px;height:500px;">
+                                          <div id="dD3M1nLhl1eKBRNb" style="clip-path:path('M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z');">
+                                             <div id="DVmi4bs5PKeKRv7Q" style="transform: scale(1, 1); transform-origin: 175px 250px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/4e95778c05f5b2509b459a815cfac61f.png" loading="lazy" style="transform:translate(0px, -22.22222222px) rotate(0deg);transform-origin:175px 272.22222222px;width:350px;height:544.44444444px;display:block;opacity:1.0;object-fit:fill;"></div>
                                           </div>
-                                       </foreignobject>
+                                       </foreignObject>
                                        <path id="cQRFgtuPiLp3SImv" d="M270,1.5 C313.29999924,1.5 348.5,36.70000076 348.5,80 L348.5,420 C348.5,463.29999924 313.29999924,498.5 270,498.5 L80,498.5 C36.70000076,498.5 1.5,463.29999924 1.5,420 L1.5,80 C1.5,36.70000076 36.70000076,1.5 80,1.5 L270,1.5 M270,0 L80,0 C35.79999924,0 0,35.79999924 0,80 L0,420 C0,464.20000076 35.79999924,500 80,500 L270,500 C314.20000076,500 350,464.20000076 350,420 L350,80 C350,35.79999924 314.20001221,0 270,0 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                     </g>
                                  </svg>
@@ -581,8 +579,8 @@
                         <div id="ekDi4lFyapxcwSm6" style="padding-top:63.25351825%;">
                            <div id="nfKwIWOfyRpkKInU" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-da6d4f51-bdda-4900-b7b4-2c03a259cce8 877ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <a id="vdId6ERSFxgr2jtA" target="_blank" rel="noopener" href="https://github.com/AtlasL1/Sheep" style="pointer-events:all;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 877ms ease 100ms 1 normal both running rise-LEFT-da6d4f51-bdda-4900-b7b4-2c03a259cce8, 400ms linear 0s 1 normal both linear_fade;">
+                                    <a id="vdId6ERSFxgr2jtA" target="_blank" rel="noopener" href="https://sheep.farted.net" style="pointer-events:all;">
                                        <div style="width:100%;height:100%;"></div>
                                     </a>
                                  </div>
@@ -594,10 +592,10 @@
                         <div id="qVJ89gWFypEPS33K" style="padding-top:63.25351825%;">
                            <div id="ln7LgKuT7kN2S6c1" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-face91c4-ba36-4b09-9af6-6fd0a331f657 877ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 877ms ease 100ms 1 normal both running rise-LEFT-face91c4-ba36-4b09-9af6-6fd0a331f657, 400ms linear 0s 1 normal both linear_fade;">
                                     <div id="OlLDRcS1GAbsbEjo" style="width:100%;height:100%;opacity:1.0;">
                                        <div id="IdIwgx3Gk7zCMLRK" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                          <div id="ojyNwTkUoeOT8vIW" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(158.0939729% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/3b64e8f45ef0601035a1eddd18848b77.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                          <div id="ojyNwTkUoeOT8vIW" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(158.0939729% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/3b64e8f45ef0601035a1eddd18848b77.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                        </div>
                                     </div>
                                  </div>
@@ -611,16 +609,16 @@
                   <div id="sU6ACSSJcpkapMvE" style="padding-top:142.85714286%;">
                      <div id="VB4iev4FF6ET0OZo" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-c364a1d5-e963-4a00-a332-fd86ecd87988 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running rise-RIGHT-c364a1d5-e963-4a00-a332-fd86ecd87988, 400ms linear 0s 1 normal both linear_fade;">
                               <div style="width:100%;height:100%;transform:rotate(-90deg);">
-                                 <a id="D2shbzWcHLu15G5b" target="_blank" rel="noopener" href="https://github.com/AtlasL1/Sheep" style="pointer-events:all;">
-                                    <svg id="tkTAnoQR2IHCK5dg" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                                 <a id="D2shbzWcHLu15G5b" target="_blank" rel="noopener" href="https://sheep.farted.net" style="pointer-events:all;">
+                                    <svg id="tkTAnoQR2IHCK5dg" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                        <g id="XaPmzleaODOdWo0t" style="transform:scale(1, 1);">
-                                          <foreignobject id="QJAc3Oq1hxAE7zvm" style="width:350px;height:500px;">
-                                             <div id="LQk92wpZJaxw216t" style="clip-path:path(&#x27;M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z&#x27;);">
-                                                <div id="TGH0lbRBQr48T6TV" style="transform:scale(1, 1);transform-origin:175px 250px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/674341b448e60a4ea915ca123b90eda6.png" loading="lazy" style="transform:translate(-107.72789661px, -23.93617021px) rotate(90deg);transform-origin:250px 273.93617021px;width:500px;height:547.87234043px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                          <foreignObject id="QJAc3Oq1hxAE7zvm" style="width:350px;height:500px;">
+                                             <div id="LQk92wpZJaxw216t" style="clip-path:path('M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z');">
+                                                <div id="TGH0lbRBQr48T6TV" style="transform: scale(1, 1); transform-origin: 175px 250px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/674341b448e60a4ea915ca123b90eda6.png" loading="lazy" style="transform:translate(-107.72789661px, -23.93617021px) rotate(90deg);transform-origin:250px 273.93617021px;width:500px;height:547.87234043px;display:block;opacity:1.0;object-fit:fill;"></div>
                                              </div>
-                                          </foreignobject>
+                                          </foreignObject>
                                           <path id="VVYJ0aNuCHRQjZrO" d="M270,1.5 C313.29999924,1.5 348.5,36.70000076 348.5,80 L348.5,420 C348.5,463.29999924 313.29999924,498.5 270,498.5 L80,498.5 C36.70000076,498.5 1.5,463.29999924 1.5,420 L1.5,80 C1.5,36.70000076 36.70000076,1.5 80,1.5 L270,1.5 M270,0 L80,0 C35.79999924,0 0,35.79999924 0,80 L0,420 C0,464.20000076 35.79999924,500 80,500 L270,500 C314.20000076,500 350,464.20000076 350,420 L350,80 C350,35.79999924 314.20001221,0 270,0 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                        </g>
                                     </svg>
@@ -643,8 +641,8 @@
                      <div id="hOUqVQZZN3oGqluc" style="z-index:5;">
                         <div id="I8MjgCAR0QEweL3K" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                            <div id="DqD1zqNNcWzGilNc" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                              <p id="bx9oHQzz8MGM91ei" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;"><a id="xBib69iMXoKJLDlz" target="_blank" rel="noopener" href="https://github.com/AtlasL1/Sheep" style="text-decoration-line:underline;color:#ffffff;font-weight:700;pointer-events:all;">SHEEP</a><span id="TJIsNjoRRnPdibiU" style="color:#ffffff;"> -</span></p>
-                              <p id="pw6fsiK18ks0kAha" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;text-transform:none;letter-spacing:0em;"><span id="Eak8ncM9yMDHodhC" style="color:#ffffff;">Effective Notebooking.</span><br></p>
+                              <p id="bx9oHQzz8MGM91ei" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;"><a id="xBib69iMXoKJLDlz" target="_blank" rel="noopener" href="https://sheep.farted.net" style="text-decoration-line:underline;color:#ffffff;font-weight:700;pointer-events:all;">SHEEP</a><span id="TJIsNjoRRnPdibiU" style="color:#ffffff;"> -</span></p>
+                              <p id="pw6fsiK18ks0kAha" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;text-transform:none;letter-spacing:0em;"><span id="Eak8ncM9yMDHodhC" style="color:#ffffff;">Website Building in Python.</span><br></p>
                            </div>
                         </div>
                      </div>
@@ -670,8 +668,8 @@
                         <div id="UuewhTuN6gu7FSUR" style="padding-top:100.45129589%;">
                            <div id="WtG8n4nnVyCAWRzg" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-ba2be506-5dac-43c5-aad8-745cb044660a 877ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <a id="L826tBf4TBtMGPef" target="_blank" rel="noopener" href="https://github.com/AtlasL1/IMAG" style="pointer-events:all;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 877ms ease 100ms 1 normal both running rise-LEFT-ba2be506-5dac-43c5-aad8-745cb044660a, 400ms linear 0s 1 normal both linear_fade;">
+                                    <a id="L826tBf4TBtMGPef" target="_blank" rel="noopener" href="https://imag.spacetechnology.net" style="pointer-events:all;">
                                        <div style="width:100%;height:100%;"></div>
                                     </a>
                                  </div>
@@ -683,10 +681,10 @@
                         <div id="ZLhn5oNICkp9hv4C" style="padding-top:100.45129589%;">
                            <div id="HSQTArICRxAWM8Ub" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-e036e348-8e25-44ec-bda2-3db57c287481 877ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 877ms ease 100ms 1 normal both running rise-LEFT-e036e348-8e25-44ec-bda2-3db57c287481, 400ms linear 0s 1 normal both linear_fade;">
                                     <div id="K6yMvYjpDrO6w9Iu" style="width:100%;height:100%;opacity:1.0;">
                                        <div id="ZIc0O7l4hCaa03UY" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                          <div id="X3z0CkdRLoyPI5i3" style="width:calc(100.45129589% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/b23e7d6f6fefe0d24ec7dfbab3b5d841.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                          <div id="X3z0CkdRLoyPI5i3" style="width: calc(100.45129589% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/b23e7d6f6fefe0d24ec7dfbab3b5d841.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                        </div>
                                     </div>
                                  </div>
@@ -708,7 +706,7 @@
                      <div id="kE2Kw98TCIEBVKlC" style="z-index:5;">
                         <div id="Y0hH4r9uuDFbmQOC" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                            <div id="icPpph9iATbIAS8U" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                              <p id="LV8L9U696AgvDSrM" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;"><a id="wutDmIybLZBFykqv" target="_blank" rel="noopener" href="https://github.com/AtlasL1/IMAG" style="text-decoration-line:underline;color:#ffffff;font-weight:700;pointer-events:all;">IMAG </a><span id="stv1esp8ENMYURhs" style="color:#ffffff;">-</span></p>
+                              <p id="LV8L9U696AgvDSrM" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;"><a id="wutDmIybLZBFykqv" target="_blank" rel="noopener" href="https://imag.spacetechnology.net" style="text-decoration-line:underline;color:#ffffff;font-weight:700;pointer-events:all;">IMAG </a><span id="stv1esp8ENMYURhs" style="color:#ffffff;">-</span></p>
                               <p id="y3gxeVNA9i3C5owU" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;text-transform:none;letter-spacing:0em;"><span id="tX9NIOgpHswey7Q7" style="color:#ffffff;">Fictional Organisation.</span><br></p>
                            </div>
                         </div>
@@ -719,16 +717,16 @@
                   <div id="dzlGWV32MIxWOuqd" style="padding-top:142.85714286%;">
                      <div id="MV7mQPLtWtoeGaBB" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-b76a7610-6054-4e0a-a593-b14d8560cebe 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running rise-RIGHT-b76a7610-6054-4e0a-a593-b14d8560cebe, 400ms linear 0s 1 normal both linear_fade;">
                               <div style="width:100%;height:100%;transform:rotate(-90deg);">
-                                 <a id="aMdM84fsBNetMp5i" target="_blank" rel="noopener" href="https://github.com/AtlasL1/IMAG" style="pointer-events:all;">
-                                    <svg id="cootFS621lFNN6j6" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                                 <a id="aMdM84fsBNetMp5i" target="_blank" rel="noopener" href="https://imag.spacetechnology.net" style="pointer-events:all;">
+                                    <svg id="cootFS621lFNN6j6" viewBox="0 0 350.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                        <g id="MUG5NM00iRrP1v4u" style="transform:scale(1, 1);">
-                                          <foreignobject id="JTvShhbquZ8FVrka" style="width:350px;height:500px;">
-                                             <div id="lNGBnbAjKO1mxhBN" style="clip-path:path(&#x27;M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z&#x27;);">
-                                                <div id="mNxlpZ3tb1qEHDSb" style="transform:scale(1, 1);transform-origin:175px 250px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/83c42cc153b9f327ef867fa1a1407ca3.jpg" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/b51472b3f02d1cd7e74de6b290e7892e.jpg 1040w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/83c42cc153b9f327ef867fa1a1407ca3.jpg 2080w" sizes="(max-width: 375px) 93.9728192vw, (min-width: 375.05px) and (max-width: 480px) 93.9728192vw, (min-width: 480.05px) and (max-width: 768px) 93.9728192vw, (min-width: 768.05px) and (max-width: 1024px) 93.9728192vw, (min-width: 1024.05px) 93.9728192vw" style="transform:translate(-467.88576471px, -149.52309128px) rotate(0deg);transform-origin:591.30777711px 394.69794122px;width:1182.61555423px;height:789.39588245px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                          <foreignObject id="JTvShhbquZ8FVrka" style="width:350px;height:500px;">
+                                             <div id="lNGBnbAjKO1mxhBN" style="clip-path:path('M270,500 L80,500 C35.79999924,500 0,464.20000076 0,420 L0,80 C0,35.79999924 35.79999924,0 80,0 L270,0 C314.20000076,0 350,35.79999924 350,80 L350,420 C350,464.20001221 314.20001221,500 270,500 Z');">
+                                                <div id="mNxlpZ3tb1qEHDSb" style="transform: scale(1, 1); transform-origin: 175px 250px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/83c42cc153b9f327ef867fa1a1407ca3.jpg" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/b51472b3f02d1cd7e74de6b290e7892e.jpg 1040w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/83c42cc153b9f327ef867fa1a1407ca3.jpg 2080w" sizes="(max-width: 375px) 93.9728192vw, (min-width: 375.05px) and (max-width: 480px) 93.9728192vw, (min-width: 480.05px) and (max-width: 768px) 93.9728192vw, (min-width: 768.05px) and (max-width: 1024px) 93.9728192vw, (min-width: 1024.05px) 93.9728192vw" style="transform:translate(-467.88576471px, -149.52309128px) rotate(0deg);transform-origin:591.30777711px 394.69794122px;width:1182.61555423px;height:789.39588245px;display:block;opacity:1.0;object-fit:fill;"></div>
                                              </div>
-                                          </foreignobject>
+                                          </foreignObject>
                                           <path id="MonYFA5jQfuP1oXc" d="M270,1.5 C313.29999924,1.5 348.5,36.70000076 348.5,80 L348.5,420 C348.5,463.29999924 313.29999924,498.5 270,498.5 L80,498.5 C36.70000076,498.5 1.5,463.29999924 1.5,420 L1.5,80 C1.5,36.70000076 36.70000076,1.5 80,1.5 L270,1.5 M270,0 L80,0 C35.79999924,0 0,35.79999924 0,80 L0,420 C0,464.20000076 35.79999924,500 80,500 L270,500 C314.20000076,500 350,464.20000076 350,420 L350,80 C350,35.79999924 314.20001221,0 270,0 Z" style="fill:#ffffff;opacity:1.0;"></path>
                                        </g>
                                     </svg>
@@ -757,7 +755,7 @@
                   <div id="T2vkVeQ3MhnYzIL0" style="box-sizing:border-box;width:100%;height:100%;">
                      <div class="animation_container" style="width:100%;height:100%;">
                         <div style="width:100%;height:100%;transform:rotate(0deg);overflow:hidden;">
-                           <div class="animated" style="width:100%;height:100%;animation:baseline-LEFT-cec9ceb1-3c24-4acc-a4f7-7dd3e96dbde1 943ms 100ms both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 943ms ease 100ms 1 normal both running baseline-LEFT-cec9ceb1-3c24-4acc-a4f7-7dd3e96dbde1;">
                               <div id="PdrVXN9cIcK1RUMJ" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                  <p id="XGuZQKajnQX6JECx" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.08750544em;text-align:center;letter-spacing:0em;"><span id="naTbOBriH1XmDooG" style="color:#ffffff;">Source Codes</span><br></p>
                               </div>
@@ -772,11 +770,11 @@
                         <div id="R1LwDqpsEFnNNM0c" style="padding-top:44.95571278%;">
                            <div id="EgWdEd59iQ9IJykg" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-c79d0e3b-786c-4bab-bcb1-3181508206dc 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running rise-LEFT-c79d0e3b-786c-4bab-bcb1-3181508206dc, 400ms linear 0s 1 normal both linear_fade;">
                                     <div id="GNK4QAHNfdGCx8Cj" style="width:100%;height:100%;opacity:1.0;">
                                        <div id="yCRPensqoSOrqYO1" class="video_container" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                           <div id="pETXwP7qWIQZGmUi" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(125.12314126% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;">
-                                             <video src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/videos/52b8daa525cc151aac4fd12ab07907f3.mp4" playsinline="" preload="none" data-volume="0.0" autoplay="" muted="" loop="" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></video>
+                                             <video src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/videos/52b8daa525cc151aac4fd12ab07907f3.mp4" playsinline="" preload="none" data-volume="0.0" muted="" loop="" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></video>
                                           </div>
                                        </div>
                                     </div>
@@ -791,15 +789,15 @@
                   <div id="mXdEkE8cXe4r1b7g" style="padding-top:100%;">
                      <div id="Cjx6WkLvYoSVY95f" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-53db7b6b-a96c-4e3a-ae42-e25f75001755 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running rise-RIGHT-53db7b6b-a96c-4e3a-ae42-e25f75001755, 400ms linear 0s 1 normal both linear_fade;">
                               <a id="IJSKgKFp1BqVCSqp" target="_blank" rel="noopener" href="https://github.com/AtlasL1" style="pointer-events:all;">
-                                 <svg id="lnFmbnQV7Jh88yb1" viewBox="0 0 500.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                                 <svg id="lnFmbnQV7Jh88yb1" viewBox="0 0 500.0 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                     <g id="imIHiiZz3QKqvkif" style="transform:scale(1, 1);">
-                                       <foreignobject id="u9ioKI7CXmeMU7EX" style="width:500px;height:500px;">
-                                          <div id="oIlx0aIoryY7qkvW" style="clip-path:path(&#x27;M0,468.8999939 L0,31.10000038 C0,13.89999962 13.89999962,0 31.10000038,0 L469,0 C486.1000061,0 500,13.89999962 500,31.10000038 L500,469 C500,486.19998169 486.1000061,500.1000061 468.8999939,500.1000061 L31.10000038,500.1000061 C13.89999962,500 0,486.1000061 0,468.8999939 Z&#x27;);">
-                                             <div id="g9mpzuIavlEiNzUw" style="transform:scale(1, 1);transform-origin:250px 250.5px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/a1bc11cdaf66407fe54f47bd3893275c.png" loading="lazy" style="transform:translate(-0.05px, 0px) rotate(0deg);transform-origin:250.05px 250.05px;width:500.1px;height:500.1px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                       <foreignObject id="u9ioKI7CXmeMU7EX" style="width:500px;height:500px;">
+                                          <div id="oIlx0aIoryY7qkvW" style="clip-path:path('M0,468.8999939 L0,31.10000038 C0,13.89999962 13.89999962,0 31.10000038,0 L469,0 C486.1000061,0 500,13.89999962 500,31.10000038 L500,469 C500,486.19998169 486.1000061,500.1000061 468.8999939,500.1000061 L31.10000038,500.1000061 C13.89999962,500 0,486.1000061 0,468.8999939 Z');">
+                                             <div id="g9mpzuIavlEiNzUw" style="transform: scale(1, 1); transform-origin: 250px 250.5px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/a1bc11cdaf66407fe54f47bd3893275c.png" loading="lazy" style="transform:translate(-0.05px, 0px) rotate(0deg);transform-origin:250.05px 250.05px;width:500.1px;height:500.1px;display:block;opacity:1.0;object-fit:fill;"></div>
                                           </div>
-                                       </foreignobject>
+                                       </foreignObject>
                                     </g>
                                  </svg>
                               </a>
@@ -843,7 +841,7 @@
                <div id="i4FbepFxB3BwVj4x" style="z-index:13;">
                   <div id="rxp8zk8CMyOcuMAw" style="box-sizing:border-box;width:100%;height:100%;">
                      <div class="animation_container" style="width:100%;height:100%;">
-                        <div class="animated" style="width:100%;height:100%;animation:pan-RIGHT-6054993b-9150-4e07-90f8-bab76d71139e 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                        <div class="animated" style="width: 100%; height: 100%; animation: 1000ms ease 100ms 1 normal both running pan-RIGHT-6054993b-9150-4e07-90f8-bab76d71139e, 400ms linear 0s 1 normal both linear_fade;">
                            <div id="Ud9LPLDt6iPVMfqy" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                               <p id="dXH7F33WNJ81Dedc" style="color:#ffffff;direction:ltr;font-family:'Roboto Slab';margin-left:0em;line-height:1.1em;text-align:center;letter-spacing:0em;"><span id="i6EFeUbbBHmWBL5n" style="text-decoration-line:none;color:#ffffff;">Experiences</span></p>
                            </div>
@@ -858,10 +856,10 @@
                            <div id="xZSHR1odb3axM7rs" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
                                  <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                    <div class="animated" style="width:100%;height:100%;animation:wipe-LEFT-5630c455-3fe2-4e4a-be9e-fb7501de01fb 750ms 100ms both paused;">
+                                    <div class="animated" style="width: 100%; height: 100%; animation: 750ms ease 100ms 1 normal both running wipe-LEFT-5630c455-3fe2-4e4a-be9e-fb7501de01fb;">
                                        <div id="llqcszxTTHF83qoL" style="width:100%;height:100%;opacity:1.0;">
                                           <div id="jP2WgV0MtRQ3iFs6" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                             <div id="uKS8h41AoGznFUx5" style="width:calc(136.89553849% * max(1, var(--scale-fill, 1)));height:calc(270.50858177% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/4c3ecd77304592d5715a8e6580ec3876.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/08efce5a5bdcfbb48958fddbf4e21f1f.png 384w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/4c3ecd77304592d5715a8e6580ec3876.png 768w" sizes="(max-width: 375px) 31.79374768vw, (min-width: 375.05px) and (max-width: 480px) 31.79374768vw, (min-width: 480.05px) and (max-width: 768px) 31.79374768vw, (min-width: 768.05px) and (max-width: 1024px) 31.79374768vw, (min-width: 1024.05px) 31.79374768vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:48.59851678% 49.31811945%;transform:translate(-48.59851678%, -49.31811945%) rotate(0deg);"></div>
+                                             <div id="uKS8h41AoGznFUx5" style="width: calc(136.89553849% * max(1, var(--scale-fill, 1))); height: calc(270.50858177% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/4c3ecd77304592d5715a8e6580ec3876.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/08efce5a5bdcfbb48958fddbf4e21f1f.png 384w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/4c3ecd77304592d5715a8e6580ec3876.png 768w" sizes="(max-width: 375px) 31.79374768vw, (min-width: 375.05px) and (max-width: 480px) 31.79374768vw, (min-width: 480.05px) and (max-width: 768px) 31.79374768vw, (min-width: 768.05px) and (max-width: 1024px) 31.79374768vw, (min-width: 1024.05px) 31.79374768vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:48.59851678% 49.31811945%;transform:translate(-48.59851678%, -49.31811945%) rotate(0deg);"></div>
                                           </div>
                                        </div>
                                     </div>
@@ -887,7 +885,7 @@
                            <div id="QewZdg8j8sQptrzj" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div id="Z1GhMLrNKgTriObG" style="width:100%;height:100%;opacity:1.0;">
                                  <div id="leC98B37nLdC074M" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="VWIsuIqmQlCuFyZC" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(119.21634186% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/3ae9778403efdffad4667fcd1252bfdd.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 52.72023215%;transform:translate(-50%, -52.72023215%) rotate(0deg);"></div>
+                                    <div id="VWIsuIqmQlCuFyZC" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(119.21634186% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/3ae9778403efdffad4667fcd1252bfdd.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 52.72023215%;transform:translate(-50%, -52.72023215%) rotate(0deg);"></div>
                                  </div>
                               </div>
                            </div>
@@ -911,10 +909,10 @@
                            <div id="Nua6IKaQw8i6vUov" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
                                  <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                    <div class="animated" style="width:100%;height:100%;animation:wipe-LEFT-871b4166-bbe9-40ca-b4e7-0b750359616c 750ms 100ms both paused;">
+                                    <div class="animated" style="width: 100%; height: 100%; animation: 750ms ease 100ms 1 normal both running wipe-LEFT-871b4166-bbe9-40ca-b4e7-0b750359616c;">
                                        <div id="TLDp52wseZef6BYP" style="width:100%;height:100%;opacity:1.0;">
                                           <div id="pvWYMn5blXRLBUPU" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                             <div id="OWXdcwJBt5xdL6tL" style="width:calc(279.51832582% * max(1, var(--scale-fill, 1)));height:calc(528.31591154% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/2c113669b805c1150da5e2368a7e0549.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/2f3f4b7d61a0b5e6648772adebfe2943.png 576w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/2c113669b805c1150da5e2368a7e0549.png 1152w" sizes="(max-width: 375px) 65.1741936vw, (min-width: 375.05px) and (max-width: 480px) 65.1741936vw, (min-width: 480.05px) and (max-width: 768px) 65.1741936vw, (min-width: 768.05px) and (max-width: 1024px) 65.1741936vw, (min-width: 1024.05px) 65.1741936vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:49.61997532% 50%;transform:translate(-49.61997532%, -50%) rotate(0deg);"></div>
+                                             <div id="OWXdcwJBt5xdL6tL" style="width: calc(279.51832582% * max(1, var(--scale-fill, 1))); height: calc(528.31591154% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/2c113669b805c1150da5e2368a7e0549.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/2f3f4b7d61a0b5e6648772adebfe2943.png 576w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/2c113669b805c1150da5e2368a7e0549.png 1152w" sizes="(max-width: 375px) 65.1741936vw, (min-width: 375.05px) and (max-width: 480px) 65.1741936vw, (min-width: 480.05px) and (max-width: 768px) 65.1741936vw, (min-width: 768.05px) and (max-width: 1024px) 65.1741936vw, (min-width: 1024.05px) 65.1741936vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:49.61997532% 50%;transform:translate(-49.61997532%, -50%) rotate(0deg);"></div>
                                           </div>
                                        </div>
                                     </div>
@@ -940,10 +938,10 @@
                            <div id="SM0gIzISF6uLihFT" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
                                  <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                    <div class="animated" style="width:100%;height:100%;animation:wipe-RIGHT-41d5d3de-e802-4134-aeba-94c370685fc0 750ms 100ms both paused;">
+                                    <div class="animated" style="width: 100%; height: 100%; animation: 750ms ease 100ms 1 normal both running wipe-RIGHT-41d5d3de-e802-4134-aeba-94c370685fc0;">
                                        <div id="itIeDYUty3SHUg1e" style="width:100%;height:100%;opacity:1.0;">
                                           <div id="SqZJVwDzKwdwre4u" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                             <div id="igAVJPZ2XE7ZPtiG" style="width:calc(281.63974065% * max(1, var(--scale-fill, 1)));height:calc(559.64310367% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/a61e358a36fe69cfd03764ce72785349.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:49.86231118% 49.87955193%;transform:translate(-49.86231118%, -49.87955193%) rotate(0deg);"></div>
+                                             <div id="igAVJPZ2XE7ZPtiG" style="width: calc(281.63974065% * max(1, var(--scale-fill, 1))); height: calc(559.64310367% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/a61e358a36fe69cfd03764ce72785349.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:49.86231118% 49.87955193%;transform:translate(-49.86231118%, -49.87955193%) rotate(0deg);"></div>
                                           </div>
                                        </div>
                                     </div>
@@ -969,10 +967,10 @@
                            <div id="D4pXeCvbhfm6zkgE" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
                                  <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                    <div class="animated" style="width:100%;height:100%;animation:wipe-RIGHT-feec2451-50ed-4d1c-87da-bd65781d08d8 750ms 100ms both paused;">
+                                    <div class="animated" style="width: 100%; height: 100%; animation: 750ms ease 100ms 1 normal both running wipe-RIGHT-feec2451-50ed-4d1c-87da-bd65781d08d8;">
                                        <div id="vUfmIV7XMVSqdAfK" style="width:100%;height:100%;opacity:1.0;">
                                           <div id="ttRfjXpTF42EktHI" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                             <div id="lMMzsfuWQL57YhCb" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/44dec462eeda83d8a234f862a1c65683.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
+                                             <div id="lMMzsfuWQL57YhCb" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/44dec462eeda83d8a234f862a1c65683.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></div>
                                           </div>
                                        </div>
                                     </div>
@@ -985,7 +983,7 @@
                         <div id="tHL1YvMZ3KI4CWj5" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                            <div id="XZqtCR8lTl0duSpy" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                               <p id="whTGN25v6H6h30UV" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;text-align:center;text-transform:none;letter-spacing:0em;"><span id="keqMyCL3D1CoUdNG" style="color:#ffffff;">Maintainer</span><br></p>
-                              <p id="ysPKFIwQVLHWJbSp" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;text-align:center;text-transform:none;letter-spacing:0em;"><span id="p8CcFm73AcIVmuH1" style="color:#ffffff;">2023-present, </span><a id="ormAH5BvDu3W8XQD" target="_blank" rel="noopener" href="https://buc-aa.github.io/.github" style="text-decoration-line:underline;color:#ffffff;pointer-events:all;">BUC-AA</a><br></p>
+                              <p id="ysPKFIwQVLHWJbSp" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.375em;text-align:center;text-transform:none;letter-spacing:0em;"><span id="p8CcFm73AcIVmuH1" style="color:#ffffff;">2023-present, </span><a id="ormAH5BvDu3W8XQD" target="_blank" rel="noopener" href="https://buc.developer.li" style="text-decoration-line:underline;color:#ffffff;pointer-events:all;">BUC-AA</a><br></p>
                            </div>
                         </div>
                      </div>
@@ -1009,7 +1007,7 @@
                   <div id="bqTVsJ151BZMs7n9" style="box-sizing:border-box;width:100%;height:100%;">
                      <div class="animation_container" style="width:100%;height:100%;">
                         <div style="width:100%;height:100%;transform:rotate(0deg);overflow:hidden;">
-                           <div class="animated" style="width:100%;height:100%;animation:baseline-LEFT-9fbf16f8-b921-46f9-862e-1f3115b1c379 909ms 100ms both paused;">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 909ms ease 100ms 1 normal both running baseline-LEFT-9fbf16f8-b921-46f9-862e-1f3115b1c379;">
                               <div id="TyEyFBtfx9gbgb4a" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                  <p id="gTgEWEDdZLa8dalM" style="color:#ffffff;font-family:'Roboto Slab';line-height:1.08750408em;letter-spacing:0em;"><span id="qmCXY5f2BeOSHl5Q" style="color:#ffffff;">Contact Me</span><br></p>
                               </div>
@@ -1024,10 +1022,10 @@
                         <div id="FMigFHCIlkcOtxAf" style="padding-top:51.21231967%;">
                            <div id="QamE8rUBnvor6i0b" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                               <div class="animation_container" style="width:100%;height:100%;">
-                                 <div class="animated" style="width:100%;height:100%;animation:rise-LEFT-d55b50c0-4527-45da-88a3-804b0046426a 943ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 943ms ease 100ms 1 normal both running rise-LEFT-d55b50c0-4527-45da-88a3-804b0046426a, 400ms linear 0s 1 normal both linear_fade;">
                                     <div id="ODXSPfdiT2G1iv16" style="width:100%;height:100%;opacity:1.0;">
                                        <div id="lQxwBM7emFV1cGJF" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                          <div id="xniubRCm2nE1dOKq" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(260.26558521% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/676e70121c98fb3fd32854ad1e2d4239.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/3ccdda3f3923679314ade4d56fc2a058.png 368w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/676e70121c98fb3fd32854ad1e2d4239.png 736w" sizes="(max-width: 375px) 52.30968228vw, (min-width: 375.05px) and (max-width: 480px) 52.30968228vw, (min-width: 480.05px) and (max-width: 768px) 52.30968228vw, (min-width: 768.05px) and (max-width: 1024px) 52.30968228vw, (min-width: 1024.05px) 52.30968228vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 21.66293031%;transform:translate(-50%, -21.66293031%) rotate(0deg);"></div>
+                                          <div id="xniubRCm2nE1dOKq" style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(260.26558521% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/676e70121c98fb3fd32854ad1e2d4239.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/3ccdda3f3923679314ade4d56fc2a058.png 368w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/676e70121c98fb3fd32854ad1e2d4239.png 736w" sizes="(max-width: 375px) 52.30968228vw, (min-width: 375.05px) and (max-width: 480px) 52.30968228vw, (min-width: 480.05px) and (max-width: 768px) 52.30968228vw, (min-width: 768.05px) and (max-width: 1024px) 52.30968228vw, (min-width: 1024.05px) 52.30968228vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 21.66293031%;transform:translate(-50%, -21.66293031%) rotate(0deg);"></div>
                                        </div>
                                     </div>
                                  </div>
@@ -1048,14 +1046,14 @@
                   <div id="vajYVOi7q99n3250" style="padding-top:56.24929688%;">
                      <div id="LCka8GFuearvSYma" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                           <div class="animated" style="width:100%;height:100%;animation:rise-RIGHT-b886e4a5-d3e1-4ab0-9aa4-0723f65cd5f8 862ms 100ms both paused, linear_fade 400ms linear both paused;">
-                              <svg id="OCclm22BS3a9tOtT" viewBox="0 0 888.9 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#x27;data:image/png;base64,&#x27;);">
+                           <div class="animated" style="width: 100%; height: 100%; animation: 862ms ease 100ms 1 normal both running rise-RIGHT-b886e4a5-d3e1-4ab0-9aa4-0723f65cd5f8, 400ms linear 0s 1 normal both linear_fade;">
+                              <svg id="OCclm22BS3a9tOtT" viewBox="0 0 888.9 500.0" style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
                                  <g id="fMsIfZvtY3rpUCXM" style="transform:scale(1, 1);">
-                                    <foreignobject id="s66n1ZjCGHLwoz38" style="width:888.9px;height:500px;">
-                                       <div id="F7GmXwasJNQPTJuY" style="clip-path:path(&#x27;M0,458.6000061 L0,41.40000153 C0,18.5 18.5,0 41.40000153,0 L847.40002441,0 C870.29998779,0 888.79998779,18.5 888.79998779,41.40000153 L888.79998779,458.5 C888.79998779,481.3999939 870.29998779,499.90002441 847.40002441,499.90002441 L41.40000153,499.90002441 C18.60000038,500 0,481.5 0,458.6000061 Z&#x27;);">
-                                          <div id="rWg8YUaIvVUYs6Mx" style="transform:scale(1, 1);transform-origin:444.5px 250px;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/31b9ca5ebff7af7996efa16692a7fe90.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/1984ba474f9b7d28e7a1ec9b289f329a.png 221w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/31b9ca5ebff7af7996efa16692a7fe90.png 442w" sizes="(max-width: 375px) 22.78123349vw, (min-width: 375.05px) and (max-width: 480px) 22.78123349vw, (min-width: 480.05px) and (max-width: 768px) 22.78123349vw, (min-width: 768.05px) and (max-width: 1024px) 22.78123349vw, (min-width: 1024.05px) 22.78123349vw" style="transform:translate(0px, -174.81150734px) rotate(0deg);transform-origin:444.4px 592.33206522px;width:888.8px;height:1184.66413043px;display:block;opacity:1.0;object-fit:fill;"></div>
+                                    <foreignObject id="s66n1ZjCGHLwoz38" style="width:888.9px;height:500px;">
+                                       <div id="F7GmXwasJNQPTJuY" style="clip-path:path('M0,458.6000061 L0,41.40000153 C0,18.5 18.5,0 41.40000153,0 L847.40002441,0 C870.29998779,0 888.79998779,18.5 888.79998779,41.40000153 L888.79998779,458.5 C888.79998779,481.3999939 870.29998779,499.90002441 847.40002441,499.90002441 L41.40000153,499.90002441 C18.60000038,500 0,481.5 0,458.6000061 Z');">
+                                          <div id="rWg8YUaIvVUYs6Mx" style="transform: scale(1, 1); transform-origin: 444.5px 250px; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/31b9ca5ebff7af7996efa16692a7fe90.png" loading="lazy" srcset="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/1984ba474f9b7d28e7a1ec9b289f329a.png 221w, https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/31b9ca5ebff7af7996efa16692a7fe90.png 442w" sizes="(max-width: 375px) 22.78123349vw, (min-width: 375.05px) and (max-width: 480px) 22.78123349vw, (min-width: 480.05px) and (max-width: 768px) 22.78123349vw, (min-width: 768.05px) and (max-width: 1024px) 22.78123349vw, (min-width: 1024.05px) 22.78123349vw" style="transform:translate(0px, -174.81150734px) rotate(0deg);transform-origin:444.4px 592.33206522px;width:888.8px;height:1184.66413043px;display:block;opacity:1.0;object-fit:fill;"></div>
                                        </div>
-                                    </foreignobject>
+                                    </foreignObject>
                                  </g>
                               </svg>
                            </div>
@@ -1069,7 +1067,7 @@
                         <div id="LMl6LzbQzc66ePJc" style="box-sizing:border-box;width:100%;height:100%;">
                            <div class="animation_container" style="width:100%;height:100%;">
                               <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                 <div class="animated" style="width:100%;height:100%;animation:wipe-RIGHT-b7819885-3118-4f62-9a1a-e6bc6b63473d 3232ms 100ms both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 3232ms ease 100ms 1 normal both running wipe-RIGHT-b7819885-3118-4f62-9a1a-e6bc6b63473d;">
                                     <div id="nWWlUn8tEDF1yk6P" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                        <p id="aaX2JK5PW6cysMh1" style="color:#ffffff;direction:ltr;font-family:'Roboto Slab';margin-left:0em;line-height:1.0714324em;text-align:justify;text-transform:none;letter-spacing:0em;"><span id="lkRFr8XPujRgdNzX" style="color:#ffffff;">Discord</span><br></p>
                                     </div>
@@ -1082,7 +1080,7 @@
                         <div id="otQYgRWpE18GbAji" style="box-sizing:border-box;width:100%;height:100%;">
                            <div class="animation_container" style="width:100%;height:100%;">
                               <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                 <div class="animated" style="width:100%;height:100%;animation:wipe-RIGHT-ff26dd0a-26cb-4313-99f8-f55767977ee6 3232ms 100ms both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 3232ms ease 100ms 1 normal both running wipe-RIGHT-ff26dd0a-26cb-4313-99f8-f55767977ee6;">
                                     <div id="au3LbKUqoLXtS8WW" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                        <p id="Ii4J8jrGbcqGdmvX" style="color:#41649c;font-family:'Roboto Slab';line-height:1.38461006em;"><a id="Ej6SzTgfDBtLyJ3b" target="_blank" rel="noopener" href="https://discord.com/users/860794014764105729" style="text-decoration-line:underline;color:#41649c;pointer-events:all;">@rodion_0</a></p>
                                        <p id="Qr0oAjF0aPUe573R" style="color:#41649c;font-family:'Roboto Slab';line-height:1.38461006em;white-space:pre;"><br></p>
@@ -1101,7 +1099,7 @@
                         <a id="h63O7zYpD6V7K14q" target="_blank" rel="noopener" href="https://discord.gg/TkT5BPkZJG" style="pointer-events:all;">
                            <div id="VPe27lfrafDDcRwm" style="width:100%;height:100%;opacity:1.0;">
                               <div id="Jnz4S3Ilo3MrGi9Y" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                 <div id="vnPu7jTws3EhrYC1" style="width:calc(132.50189303% * max(1, var(--scale-fill, 1)));height:calc(141.75796884% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/d59a8468646c93c05d3bad2fe52aecef.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:38.84816159% 64.72861427%;transform:translate(-38.84816159%, -64.72861427%) rotate(0deg);"></div>
+                                 <div id="vnPu7jTws3EhrYC1" style="width: calc(132.50189303% * max(1, var(--scale-fill, 1))); height: calc(141.75796884% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;"><img src="https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.my.canva.site/main/images/d59a8468646c93c05d3bad2fe52aecef.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:38.84816159% 64.72861427%;transform:translate(-38.84816159%, -64.72861427%) rotate(0deg);"></div>
                               </div>
                            </div>
                         </a>
@@ -1114,7 +1112,7 @@
                         <div id="bubDWEliWn32bBRE" style="box-sizing:border-box;width:100%;height:100%;">
                            <div class="animation_container" style="width:100%;height:100%;">
                               <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                 <div class="animated" style="width:100%;height:100%;animation:wipe-RIGHT-6819d5ca-ff55-4980-b8a5-7bc13562bf52 3478ms 100ms both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 3478ms ease 100ms 1 normal both running wipe-RIGHT-6819d5ca-ff55-4980-b8a5-7bc13562bf52;">
                                     <div id="yuCPvuha3lsOKdDt" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                        <p id="a3FYT60tYQOpyihJ" style="color:#ffffff;direction:ltr;font-family:'Roboto Slab';margin-left:0em;line-height:1.0714324em;text-align:justify;text-transform:none;letter-spacing:0em;"><span id="Ffj1MVjn4hIJIsfJ" style="text-decoration-line:none;color:#ffffff;">Email</span></p>
                                     </div>
@@ -1127,7 +1125,7 @@
                         <div id="mOvA1daNDJHKa1Lk" style="box-sizing:border-box;width:100%;height:100%;">
                            <div class="animation_container" style="width:100%;height:100%;">
                               <div style="width:100%;height:100%;transform:rotate(0deg);">
-                                 <div class="animated" style="width:100%;height:100%;animation:wipe-RIGHT-4d2a2c3e-553b-4172-b9e5-33fa00f5e129 3478ms 100ms both paused;">
+                                 <div class="animated" style="width: 100%; height: 100%; animation: 3478ms ease 100ms 1 normal both running wipe-RIGHT-4d2a2c3e-553b-4172-b9e5-33fa00f5e129;">
                                     <div id="S7GJM0o73eU3tBhp" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                        <p id="bWvGf31GzH2yFFIa" style="color:#ffffff;direction:ltr;font-family:'Roboto Slab';margin-left:0em;line-height:1.21154079em;text-align:justify;text-transform:none;letter-spacing:0em;"><a id="VVd0484XjyQPXx5N" target="_blank" rel="noopener" href="mailto:vtlvs.0@gmail.com" style="text-decoration-line:underline;color:#ffffff;pointer-events:all;">vtlvs.0@gmail.com</a><br></p>
                                     </div>
@@ -1169,5 +1167,171 @@
            });
          });
       </script>
-   </body>
-</html>
+   
+
+<template id="playPauseButton"><div class="playPauseButton">
+<svg class="loadingIndicator" style="display: none" viewBox="0 0 50 50"><path d="M 25 1 A 24 24 0 1 1 24.9 1" stroke="white" stroke-opacity="0.5" stroke-width="2" fill="none"></path></svg>
+<svg class="playSvg" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.248 4.212l11.05 6.574c.694.412.91 1.29.483 1.961-.121.19-.287.35-.483.467l-11.05 6.574c-.694.413-1.602.204-2.03-.467A1.39 1.39 0 0 1 6 18.574V5.426C6 4.638 6.66 4 7.475 4c.273 0 .54.073.773.212z" fill="currentColor"></path></svg>
+<svg class="pauseSvg" style="display: none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect x="7" y="5" width="3" height="14" rx="1.5" fill="currentColor"></rect><rect x="14" y="5" width="3" height="14" rx="1.5" fill="currentColor"></rect></svg>
+</div></template><style>.playPauseButton {
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 24px);
+    left: calc(50% - 24px);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: rgba(17,23,29,.4);
+    transition: opacity 0.2s ease-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loadingIndicator {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+  }
+  .loadingIndicator path {
+    stroke-dasharray: 175;
+    stroke-dashoffset: 350;
+    animation: dash 5s linear forwards;
+    animation-iteration-count: infinite;
+  }
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }</style><template id="seekBar"><div class="videoSeek">
+  <div class="videoSeekBarContainer">
+    <div class="videoSeekBar">
+      <div class="videoSeekBarCurrent"></div>
+    </div>
+    <input class="videoSeekInput" type="range" min="0" max="100" step="any" value="0" disabled="disabled">
+  </div>
+  <div class="soundButton">
+    <svg class="soundOnSvg" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 5.102L8.778 8.35a2.5 2.5 0 0 1-1.643.616H4.5v6.065h2.632a2.5 2.5 0 0 1 1.644.617l3.724 3.25V5.102zM14 19.998c0 .858-1.01 1.318-1.658.753L7.79 16.778a1 1 0 0 0-.658-.247H4a1 1 0 0 1-1-1V8.466a1 1 0 0 1 1-1h3.135a1 1 0 0 0 .657-.246l4.55-3.971C12.99 2.684 14 3.143 14 4.002v15.996zM15.25 7a.75.75 0 0 1 .75-.75 5.75 5.75 0 0 1 0 11.5.75.75 0 0 1 0-1.5 4.25 4.25 0 0 0 0-8.5.75.75 0 0 1-.75-.75zM16 9.25a.75.75 0 0 0 0 1.5 1.25 1.25 0 1 1 0 2.5.75.75 0 0 0 0 1.5 2.75 2.75 0 1 0 0-5.5z" fill="currentColor"></path></svg>
+    <svg class="soundMutedSvg" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 5.08l-3.742 3.171a2.5 2.5 0 01-.243.182L15.5 12.4V5.08zm1.5 8.814V4.002a1 1 0 00-1.646-.763l-4.566 3.868a1 1 0 01-.398.206L6.53 3.468a.75.75 0 10-1.06 1.063l14 13.94a.75.75 0 101.06-1.063L17 13.894zM6.293 7.637l1.208 1.207H7.5v5.8h2.642a2.5 2.5 0 011.616.593l3.742 3.17v-1.564l1.5 1.5v1.143a1 1 0 01-1.646.763l-4.566-3.868a1 1 0 00-.646-.237H7a1 1 0 01-1-1v-6.8c0-.276.112-.526.293-.707z" fill="currentColor"></path></svg>
+  </div>
+</div></template><style>.videoSeek {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(0, rgba(17,23,29,.4) 0%, transparent 100%);
+    color: white;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .soundButton {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 24px;
+    cursor: pointer;
+  }
+
+  .soundOnSvg,
+  .soundMutedSvg {
+    color: white;
+  }
+
+  .soundMutedSvg {
+    display: none;
+  }
+
+  .videoSeekBarContainer {
+    position: relative;
+    flex-grow: 1;
+  }
+
+  .videoSeekBar {
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 22px;
+    right: 22px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+  }
+
+  .videoSeekBarCurrent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: white;
+    border-radius: 4px;
+  }
+
+  .videoSeekInput {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 16px 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    direction: ltr;
+  }
+
+  .videoSeekInput:hover {
+    cursor: pointer;
+  }
+
+  .videoSeekInput:active {
+    cursor: grabbing;
+  }
+
+  /* chrome, safari */
+  .videoSeekInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 14px solid transparent;
+    border-radius: 100%;
+    background-clip: content-box;
+    background-color: white;
+    filter: drop-shadow(0 0 1px black);
+    opacity: 1;
+  }
+
+  .videoSeekInput:active::-webkit-slider-thumb {
+    transform: scale(1.25);
+  }
+
+  /* firefox */
+  .videoSeekInput::-moz-focus-outer {
+    border: none;
+  }
+
+  .videoSeekInput::-moz-range-thumb {
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 14px solid transparent;
+    border-radius: 100%;
+    background-clip: content-box;
+    background-color: white;
+    filter: drop-shadow(0 0 1px black);
+    opacity: 1;
+  }
+
+  .videoSeekInput:active::-moz-range-thumb {
+    transform: scale(1.25);
+  }</style></body></html>
