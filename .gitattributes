@@ -1,0 +1,3 @@
+*.graphql linguist-detectable
+*.json linguist-detectable
+*.cpp linguist-detectable
