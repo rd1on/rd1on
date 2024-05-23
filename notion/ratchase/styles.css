@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://marketplace.canva.com/EAFIU5uOojA/1/0/1600w/canva-pastel-illustration-scenery-cartoon-desktop-wallpaper-l04fmn2_Sgw.jpg");
+}
+
+.cat {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image: url('https://openseauserdata.com/files/74e28b326b157b4880e470664acb3e4e.gif');
+    background-size: cover;
+    pointer-events: none;
+}
+
+.fish {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    background-image: url('https://i.imgur.com/SqqtMnj.gif');
+    background-size: cover;
+    pointer-events: none;
+}
