@@ -1,12 +1,4 @@
 Open-source developer who mainly works on APIs and libraries.
-<details><summary>Projects</summary>
-<br><ul>
-<li>Portfolio - <a href="https://atlas.is-not-a.dev" target="_blank">Λtlʌs.Is-Not-A.Dev</a></li>
-<li>(In Progress) Discord Bot - <a href="https://www.hacktcat.com" target="_blank">Hack the Cat</a></li>
-<li>(In Progress) Python Package - <a href="https://architech.py-dev.io" target="_blank">Architech</a></li>
-<li>(In Progress) Python Package - <a href="https://sheep.farted.net" target="_blank">Sheep</a></li>
-<li>(Ongoing) Organisation (Fictional) - <a href="https://imag.dimensionless.space" target="_blank">IMAG</a></li>
-<li>(Ongoing) APIs - <a href="https://atpi.proj.sbs" target="_blank">AtPI.Proj.SBS</a></li></details>
   
 <details><summary>GitHub Activity</summary><br>
 <p><img src="https://github-readme-activity-graph.vercel.app/graph?username=atlasl1&bg_color=000000&color=ffffff&line=696969&point=606060&area=true&hide_border=true"></p>
@@ -17,7 +9,7 @@ Open-source developer who mainly works on APIs and libraries.
 </details>
 
 <details><summary>Contact Me</summary><br>
-<a href="https://discord.com/users/860794014764105729"><img src="https://lanyard.cnrad.dev/api/860794014764105729?bg=000000&idleMessage=Project%20death."></a><br><br>
+<a href="https://discord.com/users/860794014764105729"><img src="https://lanyard.cnrad.dev/api/860794014764105729?bg=000000&idleMessage=Unknown."></a><br><br>
 <a href="https://discord.gg/gfWH4zypHe"><img src="https://invidget.switchblade.xyz/gfWH4zypHe"></a><br><br>
 Alternatively you can DM me there at <a href="https://discord.com/users/860794014764105729">@rodion_0</a>, or send me an email at <a href="mailto:vtlvs.0@gmail.com">vtlvs.0@gmail.com</a>. <br>If I don't reply within four days, remind me again!
 </details>
