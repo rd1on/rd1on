@@ -1,4 +1,4 @@
-Open-source developer who mainly works on APIs and libraries.
+https://shrimp.is-not-a.dev
   
 <details><summary>GitHub Activity</summary><br>
 <p><img src="https://github-readme-activity-graph.vercel.app/graph?username=atlasl1&bg_color=000000&color=ffffff&line=696969&point=606060&area=true&hide_border=true"></p>
