@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>LLIS</title>
+    <style>
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #0d0d0d;
+        color: #c0c0c0bd;
+        font-family: 'Courier New', monospace;
+        white-space: pre;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+
+    #glitch-title {
+        font-size: 1.5rem;
+        color: rgb(5, 233, 9);
+        text-shadow: 0 0 5px #888, 0 0 10px #444;
+        margin-bottom: 1.5rem;
+        white-space: normal;
+    }
+
+    a {
+        color: #c0c0c0;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+    }
+
+    a:hover {
+        color: #25cb00;
+        text-shadow: 0 0 2px #00f0ff, 0 0 5px #00f0ff;
+    }
+
+    .fake-dir {
+        line-height: 1.6;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+    
+</style>
+</head>
+<body>
+    <h1 id="glitch-title"></h1>
+
+    <div class="fake-dir">
+c0reNull/
+├── magnetix/
+│   └── <a href="magnetix\MAGNETIX_Docs.pdf" target="_blank">MAGNETIX_Docs.pdf</a>
+├── 404_museum/
+└── other/ 
+    ├── <a href="https://shrimp.is-not-a.dev/photography" target="_blank" title="I tried... zZz">ew!</a>
+    ├── <a href="https://shrimp.is-not-a.dev" target="_blank" title="Home | shrimp.is-not-a.dev">shrimp.is-not-a.dev</a>
+    └── <a href="https://github.com/rd1on" target="_blank" title="Powered by github.com/rd1on">github.com/rd1on</a>
+    </div>
+
+    <script>
+        const text = "phyl.exe // directory";
+        let i = 0;
+        function typeGlitch() {
+    
+        if (i < text.length) {
+        document.getElementById("glitch-title").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeGlitch, 60);
+    }
+    }
+    window.onload = typeGlitch;
+    </script>
+    
+</body>
+</html>
