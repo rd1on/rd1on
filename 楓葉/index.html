@@ -86,21 +86,36 @@
     </div>
 
     <button onclick="showRandom()">点！我有上百张</button>
+    <br>
+    <div class="footer" style="font-size: 1.0em;" id="counter">点了 0 次</div>
+
   </div>
 
   <script>
-    const totalPhotos = 101;
+  const totalPhotos = 141;
+  const key = "xiaobai_click_count";
 
-    function showRandom() {
-      const img = document.getElementById("photo");
-      const random = Math.floor(Math.random() * totalPhotos) + 1;
-      img.src = `img/${random}.png`;
-      img.classList.remove("show");
-      setTimeout(() => img.classList.add("show"), 50);
-    }
+  let count = Number(localStorage.getItem(key)) || 0;
 
-    showRandom()
+  const counterEl = document.getElementById("counter");
+  counterEl.textContent = `clicked ${count} times`;
+
+  function showRandom() {
+    const img = document.getElementById("photo");
+    const random = Math.floor(Math.random() * totalPhotos) + 1;
+    img.src = `img/${random}.png`;
+
+    img.classList.remove("show");
+    setTimeout(() => img.classList.add("show"), 50);
+
+    count++;
+    localStorage.setItem(key, count);
+    counterEl.textContent = `点了 ${count} 次 `;
+  }
+
+  showRandom();
   </script>
+
 
 </body>
 </html>
